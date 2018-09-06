@@ -395,6 +395,21 @@
 <h2 id="参考链接示例"><a href="#参考链接示例" class="headerlink" title="参考链接示例"></a>参考链接示例</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">[链接到百度][1]</span><br><span class="line">[链接到google][2]</span><br><span class="line">[链接到百度2][1]</span><br><span class="line"></span><br><span class="line">[1]:https://baidu.com</span><br><span class="line">[2]:https://google.com</span><br></pre></td></tr></table></figure>
 <p>输出结果：<br><a href="https://baidu.com" target="_blank" rel="noopener">链接到百度</a><br><a href="https://google.com" target="_blank" rel="noopener">链接到google</a><br><a href="https://baidu.com" target="_blank" rel="noopener">链接到百度2</a></p>
 <p>参考链接中的标号<a href="https://baidu.com" target="_blank" rel="noopener">1</a>,<a href="https://google.com" target="_blank" rel="noopener">2</a>可以是数字，字母，数字和字母的组合。<br>链接支持相对路径，./表示当前目录，../表示上级目录，不同文档之间的关联采用相对路径。</p>
+<h1 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h1><p>Markdown使用的图片语法类似于链接的语法，允许两种引入</p>
+<h2 id="内联图片"><a href="#内联图片" class="headerlink" title="内联图片"></a>内联图片</h2><p><code>![图片描述文字](../images/icon-next.png)</code><br><code>![图片描述文字](../images/icon-next.png &#39;next主题&#39;)</code></p>
+<p><strong>说明：</strong></p>
+<ul>
+<li>!</li>
+<li>[] 图片的属性文本</li>
+<li>() 包含图片的url或路径，以及title用双引号或单引号括起来的可选属性。</li>
+</ul>
+<p><img src="../images/icon-next.png" alt="图片描述文字" title="next主题"></p>
+<h2 id="参考引用图片"><a href="#参考引用图片" class="headerlink" title="参考引用图片"></a>参考引用图片</h2><p>‘![Alt text][id]’</p>
+<p>id是已经定义图片引用的名称。使用与链接引用相同：<br><code>[id]: url/to/image  &quot;Optional title attribute&quot;</code></p>
+<p>如果需要指定图片的尺寸，可以使用Html <img>标记：<br><code>&lt;img src=&quot;../images/icon-next.png&quot; width=&quot;50px&quot;/&gt;</code></p>
+<p><img src="../images/icon-next.png" width="50px"></p>
+<h1 id="自动链接"><a href="#自动链接" class="headerlink" title="自动链接"></a>自动链接</h1><p>Markdown支持为URL和电子邮件地址创建“自动”链接的快捷方式：只需用尖括号括起URL或电子邮件地址即可。<br><code>&lt;https://baidu.com&gt;</code> <code>&lt;736331518@qq.com&gt;</code></p>
+<p><a href="https://baidu.com" target="_blank" rel="noopener">https://baidu.com</a> <a href="mailto:&#x37;&#x33;&#x36;&#x33;&#51;&#49;&#53;&#49;&#x38;&#x40;&#113;&#x71;&#46;&#99;&#111;&#x6d;" target="_blank" rel="noopener">&#x37;&#x33;&#x36;&#x33;&#51;&#49;&#53;&#49;&#x38;&#x40;&#113;&#x71;&#46;&#99;&#111;&#x6d;</a></p>
 <h1 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h1><p>我们可以使用*,+,-,数字作为列表的关键字。同时列表支持嵌套。<br><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">- </span>服务器端语言</span><br><span class="line"><span class="code">    + java</span></span><br><span class="line"><span class="code">    + .net</span></span><br><span class="line"><span class="code">    + delphy</span></span><br><span class="line"><span class="bullet">- </span>前端语言</span><br><span class="line">  * css</span><br><span class="line">  * html</span><br><span class="line">  * javascript</span><br><span class="line"><span class="bullet">- </span>数据库</span><br><span class="line">  1. sql</span><br><span class="line">  2. mysql</span><br><span class="line">  3. sqlite</span><br><span class="line">  4. oracle</span><br><span class="line"><span class="bullet">- </span>移动端开发(任务列表，非标准Markdown语法)</span><br><span class="line">  - [x]android</span><br><span class="line">  - [ ]IOS</span><br><span class="line">  - [ ]winphone</span><br></pre></td></tr></table></figure></p>
 <ul>
 <li>服务器端语言<ul>
@@ -429,7 +444,7 @@
 <h1 id="忽略Markdown的格式"><a href="#忽略Markdown的格式" class="headerlink" title="忽略Markdown的格式"></a>忽略Markdown的格式</h1><p>你可以通过<code>\</code>在Markdown关键字之前使用来转义Markdown关键字。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">\*\*转义Markdown关键字\*\*</span><br></pre></td></tr></table></figure></p>
 <p>输出结果：<br>**转义Markdown关键字**</p>
 <blockquote>
-<p>参考：<br><a href="https://www.cnblogs.com/yabin/p/6366151.html" target="_blank" rel="noopener">https://www.cnblogs.com/yabin/p/6366151.html</a><br><a href="https://help.github.com/articles/basic-writing-and-formatting-syntax/#headings" target="_blank" rel="noopener">https://help.github.com/articles/basic-writing-and-formatting-syntax/#headings</a></p>
+<p>参考：<br><a href="https://help.github.com/articles/basic-writing-and-formatting-syntax/#headings" target="_blank" rel="noopener">https://help.github.com/articles/basic-writing-and-formatting-syntax/#headings</a><br><a href="https://daringfireball.net/projects/markdown/syntax#backslash" target="_blank" rel="noopener">https://daringfireball.net/projects/markdown/syntax#backslash</a></p>
 </blockquote>
 
           
