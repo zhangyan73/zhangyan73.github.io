@@ -88,7 +88,7 @@
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="http://yoursite.com/images/icon-next.png">
 <meta property="og:image" content="http://yoursite.com/images/icon-next.png">
-<meta property="og:updated_time" content="2018-09-07T07:43:19.783Z">
+<meta property="og:updated_time" content="2018-09-07T07:49:42.844Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Markdown语法1">
 <meta name="twitter:description" content="标题Markdown支持两种样式的标题，Setext和atx。  Setext样式的标题使用等号（对于第一级标题）和破折号（对于第二级标题）“加下划线”。例如：  1234这是一级标题============这是二级标题------------ 输出结果： 这是一级标题这是二级标题 Atx样式的标题在行的开头使用1-6个#字符，对应于标题级别1-6。例如：  123# 一级标题## 二级标题###">
@@ -473,7 +473,7 @@ else
 <p><a href="http://google.com" title="Goolge" target="_blank" rel="noopener">Google</a> , <a href="http://search.yahoo.com" title="Yahoo Search" target="_blank" rel="noopener">Yahoo</a> , <a href="http://search.msn.com" title="MSN Search" target="_blank" rel="noopener">MSN</a></p>
 <h2 id="自动链接"><a href="#自动链接" class="headerlink" title="自动链接"></a>自动链接</h2><p>Markdown支持为URL和电子邮件地址创建“自动”链接的快捷方式：只需用尖括号括起URL或电子邮件地址即可。例如：<br><code>&lt;https://baidu.com&gt;</code> <code>&lt;736331518@qq.com&gt;</code></p>
 <p>输出：</p>
-<p><a href="https://baidu.com" target="_blank" rel="noopener">https://baidu.com</a> <a href="mailto:&#55;&#x33;&#54;&#x33;&#51;&#49;&#53;&#49;&#56;&#x40;&#113;&#x71;&#46;&#99;&#111;&#109;" target="_blank" rel="noopener">&#55;&#x33;&#54;&#x33;&#51;&#49;&#53;&#49;&#56;&#x40;&#113;&#x71;&#46;&#99;&#111;&#109;</a></p>
+<p><a href="https://baidu.com" target="_blank" rel="noopener">https://baidu.com</a> <a href="mailto:&#x37;&#x33;&#x36;&#x33;&#x33;&#49;&#53;&#x31;&#56;&#64;&#113;&#x71;&#x2e;&#99;&#111;&#x6d;" target="_blank" rel="noopener">&#x37;&#x33;&#x36;&#x33;&#x33;&#49;&#53;&#x31;&#56;&#64;&#113;&#x71;&#x2e;&#99;&#111;&#x6d;</a></p>
 <p>链接支持相对路径，./表示当前目录，../表示上级目录，不同文档之间的关联采用相对路径。</p>
 <h1 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h1><p>Markdown使用的图片语法类似于链接的语法，允许两种引入</p>
 <h2 id="内联图片"><a href="#内联图片" class="headerlink" title="内联图片"></a>内联图片</h2><p><code>![图片描述文字](../images/icon-next.png)</code><br><code>![图片描述文字](../images/icon-next.png &#39;next主题&#39;)</code></p>
@@ -487,7 +487,7 @@ else
 <h2 id="参考引用图片"><a href="#参考引用图片" class="headerlink" title="参考引用图片"></a>参考引用图片</h2><p>‘![Alt text][id]’</p>
 <p>id是已经定义图片引用的名称。使用与链接引用相同：<br><code>[id]: url/to/image  &quot;Optional title attribute&quot;</code></p>
 <p>如果需要指定图片的尺寸，可以使用Html <img>标记：<br><code>&lt;img src=&quot;../images/icon-next.png&quot; width=&quot;50px&quot;/&gt;</code></p>
-<p><img src="../../../../../images/icon-next.png" width="50px"></p>
+<p><img src="../../../../images/icon-next.png" width="50px"></p>
 <h1 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h1><p>Markdown支持无序（项目符号）和有序（数字）列表。<br>无序列表使用星号，加号和连字符作为列表标记；有序列表使用数字后跟点号：<br><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">- </span>服务器端语言</span><br><span class="line"><span class="code">    + java</span></span><br><span class="line"><span class="code">    + .net</span></span><br><span class="line"><span class="code">    + delphy</span></span><br><span class="line"><span class="bullet">- </span>前端语言</span><br><span class="line">  * css</span><br><span class="line">  * html</span><br><span class="line">  * javascript</span><br><span class="line"><span class="bullet">- </span>数据库</span><br><span class="line">  1. sql</span><br><span class="line">  2. mysql</span><br><span class="line">  3. sqlite</span><br><span class="line">  4. oracle</span><br><span class="line"><span class="bullet">- </span>移动端开发(任务列表，非标准Markdown语法)</span><br><span class="line">  - [x]android</span><br><span class="line">  - [ ]IOS</span><br><span class="line">  - [ ]winphone</span><br></pre></td></tr></table></figure></p>
 <ul>
 <li>服务器端语言<ul>
