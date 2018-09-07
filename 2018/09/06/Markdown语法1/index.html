@@ -79,20 +79,20 @@
 
 
 
-<meta name="description" content="标题Markdown中如果想定义一个标题，需要在标题前加上#。1-6个#分别代表1-6级标题。一般会在#和标题之间加上一个空格。123# 一级标题## 二级标题### 三级标题 输出结果： 一级标题二级标题三级标题文本样式Markdown支持四种文本样式，分别是粗体、斜体、删除线、和粗体加斜体。 粗体12**这是粗体文字1**__这是粗体文字2__ 输出结果：这是粗体文字1这是粗体文字2 斜体12">
+<meta name="description" content="标题Markdown支持两种样式的标题，Setext和atx。  Setext样式的标题使用等号（对于第一级标题）和破折号（对于第二级标题）“加下划线”。例如：  1234这是一级标题============这是二级标题------------ 输出结果： 这是一级标题这是二级标题 Atx样式的标题在行的开头使用1-6个#字符，对应于标题级别1-6。例如：  123# 一级标题## 二级标题###">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Markdown语法1">
 <meta property="og:url" content="http://yoursite.com/2018/09/06/Markdown语法1/index.html">
 <meta property="og:site_name" content="鲁西西的博客">
-<meta property="og:description" content="标题Markdown中如果想定义一个标题，需要在标题前加上#。1-6个#分别代表1-6级标题。一般会在#和标题之间加上一个空格。123# 一级标题## 二级标题### 三级标题 输出结果： 一级标题二级标题三级标题文本样式Markdown支持四种文本样式，分别是粗体、斜体、删除线、和粗体加斜体。 粗体12**这是粗体文字1**__这是粗体文字2__ 输出结果：这是粗体文字1这是粗体文字2 斜体12">
+<meta property="og:description" content="标题Markdown支持两种样式的标题，Setext和atx。  Setext样式的标题使用等号（对于第一级标题）和破折号（对于第二级标题）“加下划线”。例如：  1234这是一级标题============这是二级标题------------ 输出结果： 这是一级标题这是二级标题 Atx样式的标题在行的开头使用1-6个#字符，对应于标题级别1-6。例如：  123# 一级标题## 二级标题###">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:image" content="http://yoursite.com/2018/09/06/images/icon-next.png">
-<meta property="og:image" content="http://yoursite.com/2018/09/06/images/icon-next.png">
-<meta property="og:updated_time" content="2018-09-06T10:04:23.709Z">
+<meta property="og:image" content="http://yoursite.com/images/icon-next.png">
+<meta property="og:image" content="http://yoursite.com/images/icon-next.png">
+<meta property="og:updated_time" content="2018-09-07T07:43:19.783Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Markdown语法1">
-<meta name="twitter:description" content="标题Markdown中如果想定义一个标题，需要在标题前加上#。1-6个#分别代表1-6级标题。一般会在#和标题之间加上一个空格。123# 一级标题## 二级标题### 三级标题 输出结果： 一级标题二级标题三级标题文本样式Markdown支持四种文本样式，分别是粗体、斜体、删除线、和粗体加斜体。 粗体12**这是粗体文字1**__这是粗体文字2__ 输出结果：这是粗体文字1这是粗体文字2 斜体12">
-<meta name="twitter:image" content="http://yoursite.com/2018/09/06/images/icon-next.png">
+<meta name="twitter:description" content="标题Markdown支持两种样式的标题，Setext和atx。  Setext样式的标题使用等号（对于第一级标题）和破折号（对于第二级标题）“加下划线”。例如：  1234这是一级标题============这是二级标题------------ 输出结果： 这是一级标题这是二级标题 Atx样式的标题在行的开头使用1-6个#字符，对应于标题级别1-6。例如：  123# 一级标题## 二级标题###">
+<meta name="twitter:image" content="http://yoursite.com/images/icon-next.png">
 
 
 
@@ -369,7 +369,16 @@
       
 
       
-        <h1 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h1><p>Markdown中如果想定义一个标题，需要在标题前加上#。1-6个#分别代表1-6级标题。一般会在#和标题之间加上一个空格。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"># 一级标题</span><br><span class="line">## 二级标题</span><br><span class="line">### 三级标题</span><br></pre></td></tr></table></figure></p>
+        <h1 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h1><p>Markdown支持两种样式的标题，Setext和atx。</p>
+<ol>
+<li>Setext样式的标题使用等号（对于第一级标题）和破折号（对于第二级标题）“加下划线”。例如：</li>
+</ol>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">这是一级标题</span><br><span class="line">============</span><br><span class="line">这是二级标题</span><br><span class="line">------------</span><br></pre></td></tr></table></figure>
+<p>输出结果：</p>
+<h1 id="这是一级标题"><a href="#这是一级标题" class="headerlink" title="这是一级标题"></a>这是一级标题</h1><h2 id="这是二级标题"><a href="#这是二级标题" class="headerlink" title="这是二级标题"></a>这是二级标题</h2><ol start="2">
+<li>Atx样式的标题在行的开头使用1-6个#字符，对应于标题级别1-6。例如：</li>
+</ol>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"># 一级标题</span><br><span class="line">## 二级标题</span><br><span class="line">### 三级标题</span><br></pre></td></tr></table></figure>
 <p>输出结果：</p>
 <h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h1 id="文本样式"><a href="#文本样式" class="headerlink" title="文本样式"></a>文本样式</h1><p>Markdown支持四种文本样式，分别是粗体、斜体、删除线、和粗体加斜体。</p>
 <h2 id="粗体"><a href="#粗体" class="headerlink" title="粗体"></a>粗体</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">**这是粗体文字1**</span><br><span class="line">__这是粗体文字2__</span><br></pre></td></tr></table></figure>
@@ -380,23 +389,92 @@
 <p>输出结果：<br><del>这是错误的文本</del></p>
 <h2 id="粗体加斜体"><a href="#粗体加斜体" class="headerlink" title="粗体加斜体"></a>粗体加斜体</h2><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="strong">**这个文本非常*重要**</span>*</span><br><span class="line"><span class="strong">**This text is _extremely_ important**</span>  (不知为何中文用__加粗没有效果)</span><br></pre></td></tr></table></figure>
 <p>输出结果：<br><strong>这个文本非常<em>重要</em></strong><br><strong>This text is <em>extremely</em> important</strong></p>
-<h1 id="引用文字"><a href="#引用文字" class="headerlink" title="引用文字"></a>引用文字</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">In the words of Abraham Lincoln:</span><br><span class="line">&gt; Pardon my French</span><br></pre></td></tr></table></figure>
-<p>输出结果：<br>In the words of Abraham Lincoln:</p>
+<h1 id="块引用"><a href="#块引用" class="headerlink" title="块引用"></a>块引用</h1><h2 id="Markdown使用”-gt-”字符进行块引用。"><a href="#Markdown使用”-gt-”字符进行块引用。" class="headerlink" title="Markdown使用”&gt;”字符进行块引用。"></a>Markdown使用”&gt;”字符进行块引用。</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&gt; 这是一个块引用。</span><br><span class="line"></span><br><span class="line">&gt; Markdown使用&quot;&gt;&quot;字符进行块引用。</span><br></pre></td></tr></table></figure>
+<p>输出结果：</p>
 <blockquote>
-<p>Pardon my French</p>
+<p>这是一个块引用。</p>
 </blockquote>
-<h1 id="引用代码"><a href="#引用代码" class="headerlink" title="引用代码"></a>引用代码</h1><p>引用代码有两种形式，</p>
+<blockquote>
+<p>Markdown使用”&gt;”字符进行块引用。</p>
+</blockquote>
+<h2 id="可以嵌套块引用"><a href="#可以嵌套块引用" class="headerlink" title="可以嵌套块引用"></a>可以嵌套块引用</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&gt; 这是一级引用。</span><br><span class="line">&gt;</span><br><span class="line">&gt; &gt; 这是内层块引用。</span><br><span class="line">&gt;</span><br><span class="line">&gt; 回到一级块引用。</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>这是一级引用。</p>
+<blockquote>
+<p>这是内层块引用。</p>
+</blockquote>
+<p>回到一级块引用。</p>
+</blockquote>
+<h2 id="块引用可以包含其他Markdown元素，包括标题，列表和代码块。例如："><a href="#块引用可以包含其他Markdown元素，包括标题，列表和代码块。例如：" class="headerlink" title="块引用可以包含其他Markdown元素，包括标题，列表和代码块。例如："></a>块引用可以包含其他Markdown元素，包括标题，列表和代码块。例如：</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">&gt; ##这是一个标题</span><br><span class="line">&gt;</span><br><span class="line">&gt; 1. 这是一级列表项</span><br><span class="line">&gt; 2.这是二级列表项</span><br><span class="line">&gt;</span><br><span class="line">&gt; 这是代码示例：</span><br><span class="line">&gt;</span><br><span class="line">&gt;     console.log(&quot;Hello World!&quot;);</span><br></pre></td></tr></table></figure>
+<p>输出结果：</p>
+<blockquote>
+<p>##这是一个标题</p>
+<ol>
+<li>这是一级列表项<br>2.这是二级列表项</li>
+</ol>
+<p>这是代码示例：</p>
+<pre><code>console.log(&quot;Hello World!&quot;);
+</code></pre></blockquote>
+<h1 id="代码引用"><a href="#代码引用" class="headerlink" title="代码引用"></a>代码引用</h1><p>引用代码有两种形式,行引用和段引用。</p>
 <h2 id="使用一个倒引号-引用代码或命令；"><a href="#使用一个倒引号-引用代码或命令；" class="headerlink" title="使用一个倒引号`引用代码或命令；"></a>使用一个倒引号`引用代码或命令；</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">输入命令`git status`</span><br></pre></td></tr></table></figure>
 <p>输出结果：<br>输入命令<code>git status</code></p>
 <h2 id="使用三个倒引号-引用一段代码；"><a href="#使用三个倒引号-引用一段代码；" class="headerlink" title="使用三个倒引号```引用一段代码；"></a>使用三个倒引号```引用一段代码；</h2><p>```java<br>int a = 1;<br>int b = 2;<br>int c = a+b;<br>```</p>
 <p>输出结果：<br><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">int</span> a = <span class="number">1</span>;</span><br><span class="line"><span class="keyword">int</span> b = <span class="number">2</span>;</span><br><span class="line"><span class="keyword">int</span> c = a+b;</span><br></pre></td></tr></table></figure></p>
-<h1 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h1><p>用中括号将链接文本包起来<code>[]</code>，讲URL包在小括号中创建内联链接<code>()</code>。</p>
-<h2 id="行内链接示例"><a href="#行内链接示例" class="headerlink" title="行内链接示例"></a>行内链接示例</h2><p><code>[百度](https://baidu.com)</code></p>
+<h1 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h1><p>预格式化的代码块用于编写有关编程或标记源代码。不是形成正常段落，而是按字面解释代码块的行。<br>要在Markdown中生成代码块，只需要将块的每一行缩进至少四个空格或一个制表符。例如：</p>
+<pre><code>if(true)
+    console.log(&quot;this is true&quot;);
+else
+    console.log(&quot;this is false&quot;);
+</code></pre><p>输出结果：</p>
+<pre><code>if(true)
+    console.log(&quot;this is true&quot;);
+else
+    console.log(&quot;this is false&quot;);
+</code></pre><p>代码块一直持续到没有缩进的行。</p>
+<p>在代码块中，&amp;符号和尖括号（&lt;,&gt;）会自动转换成HTML。这使得使用Markdown包含HTML源代码示例变得非常容易，只需要将其粘贴并缩进即可，Markdown将处理编码&amp;符号和尖括号。例如：</p>
+<pre><code>&lt;div class=&quot;footer&quot;&gt;
+    &amp;copy; 2004 Foo Corporation
+&lt;/div&gt;
+</code></pre><p>输出结果：</p>
+<pre><code>&lt;div class=&quot;footer&quot;&gt;
+    &amp;copy; 2004 Foo Corporation
+&lt;/div&gt;
+</code></pre><h1 id="水平规则"><a href="#水平规则" class="headerlink" title="水平规则"></a>水平规则</h1><p>你可以通过在一行上输入三个或以上的连字符，星号和下划线来生成水平规则标记。也可以在他们之间加入空格。以下每一行都生成一个水平规则：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">1. ***</span><br><span class="line">2. * * *</span><br><span class="line">3. ---</span><br><span class="line">4. - - -</span><br><span class="line">5. ___</span><br><span class="line">6. _ _ _</span><br></pre></td></tr></table></figure>
 <p>输出结果：</p>
-<p><a href="https://baidu.com" target="_blank" rel="noopener">百度</a></p>
-<h2 id="参考链接示例"><a href="#参考链接示例" class="headerlink" title="参考链接示例"></a>参考链接示例</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">[链接到百度][1]</span><br><span class="line">[链接到google][2]</span><br><span class="line">[链接到百度2][1]</span><br><span class="line"></span><br><span class="line">[1]:https://baidu.com</span><br><span class="line">[2]:https://google.com</span><br></pre></td></tr></table></figure>
-<p>输出结果：<br><a href="https://baidu.com" target="_blank" rel="noopener">链接到百度</a><br><a href="https://google.com" target="_blank" rel="noopener">链接到google</a><br><a href="https://baidu.com" target="_blank" rel="noopener">链接到百度2</a></p>
-<p>参考链接中的标号<a href="https://baidu.com" target="_blank" rel="noopener">1</a>,<a href="https://google.com" target="_blank" rel="noopener">2</a>可以是数字，字母，数字和字母的组合。<br>链接支持相对路径，./表示当前目录，../表示上级目录，不同文档之间的关联采用相对路径。</p>
+<ol>
+<li><hr>
+</li>
+<li><hr>
+</li>
+<li><hr>
+</li>
+<li><hr>
+</li>
+<li><hr>
+</li>
+<li><hr>
+</li>
+</ol>
+<h1 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h1><p>Markdown支持两种类型的链接：内联和引用。<br>在这两种样式中，链接文本由[方括号]分隔。</p>
+<h2 id="要创建内联链接，请在链接文本结束的方括号后立即使用一组小括号。在括号内，将URL指向链接，以及链接的可选标题，用引号括起来。例如："><a href="#要创建内联链接，请在链接文本结束的方括号后立即使用一组小括号。在括号内，将URL指向链接，以及链接的可选标题，用引号括起来。例如：" class="headerlink" title="要创建内联链接，请在链接文本结束的方括号后立即使用一组小括号。在括号内，将URL指向链接，以及链接的可选标题，用引号括起来。例如："></a>要创建内联链接，请在链接文本结束的方括号后立即使用一组小括号。在括号内，将URL指向链接，以及链接的<em>可选</em>标题，用引号括起来。例如：</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">[测试链接1](http://test.com &apos;test&apos;)</span><br><span class="line">[测试链接2](http://test.com)</span><br></pre></td></tr></table></figure>
+<p>输出结果：</p>
+<p><a href="http://test.com" title="test" target="_blank" rel="noopener">测试链接1</a></p>
+<p><a href="http://test.com" target="_blank" rel="noopener">测试链接2</a></p>
+<h2 id="参考链接语法："><a href="#参考链接语法：" class="headerlink" title="参考链接语法："></a>参考链接语法：</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">[链接文本text] [链接定义标签id]</span><br><span class="line"></span><br><span class="line">然后，在文档中的任何位置，可以单独定义链接标签，以下三个定义是等效的：</span><br><span class="line">[id]: http://example.com/  &quot;Optional Title Here&quot;</span><br><span class="line">[id]: http://example.com/  &apos;Optional Title Here&apos;</span><br><span class="line">[id]: http://example.com/  (Optional Title Here)</span><br></pre></td></tr></table></figure>
+<p>链接定义名称可能包含字母，数字，空格和标点符号 - 但它们不区分大小写。</p>
+<h2 id="隐式链接名称"><a href="#隐式链接名称" class="headerlink" title="隐式链接名称"></a>隐式链接名称</h2><p>在隐式链接名称可以让你忽略链接，在这种情况下，链接文本本身作为名称的名称。只需要使用一组空的方括号。例如，将google链接到google.com:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">[Google][]</span><br><span class="line"></span><br><span class="line">然后定义链接：</span><br><span class="line">[Google]: http://google.com</span><br></pre></td></tr></table></figure></p>
+<p>链接定义可以放在文档的任何位置，我个人倾向于在使用它们的每个段落之后定义，但也可以放在文档的末尾。</p>
+<h2 id="参考链接例子："><a href="#参考链接例子：" class="headerlink" title="参考链接例子："></a>参考链接例子：</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">[Google] [1] , [Yahoo] [2] , [MSN] [3]</span><br><span class="line"></span><br><span class="line">[1]: http://google.com &quot;Goolge&quot;</span><br><span class="line">[2]: http://search.yahoo.com &quot;Yahoo Search&quot;</span><br><span class="line">[3]: http://search.msn.com &quot;MSN Search&quot;</span><br></pre></td></tr></table></figure>
+<p>输出结果：</p>
+<p><a href="http://google.com" title="Goolge" target="_blank" rel="noopener">Google</a> , <a href="http://search.yahoo.com" title="Yahoo Search" target="_blank" rel="noopener">Yahoo</a> , <a href="http://search.msn.com" title="MSN Search" target="_blank" rel="noopener">MSN</a></p>
+<h2 id="隐式链接例子："><a href="#隐式链接例子：" class="headerlink" title="隐式链接例子："></a>隐式链接例子：</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">[Google] [] , [Yahoo] [] , [MSN] []</span><br><span class="line"></span><br><span class="line">[google]: http://google.com &quot;Goolge&quot;</span><br><span class="line">[yahoo]: http://search.yahoo.com &quot;Yahoo Search&quot;</span><br><span class="line">[msn]: http://search.msn.com &quot;MSN Search&quot;</span><br><span class="line">链接定义不区分大小写</span><br></pre></td></tr></table></figure>
+<p>输出结果：</p>
+<p><a href="http://google.com" title="Goolge" target="_blank" rel="noopener">Google</a> , <a href="http://search.yahoo.com" title="Yahoo Search" target="_blank" rel="noopener">Yahoo</a> , <a href="http://search.msn.com" title="MSN Search" target="_blank" rel="noopener">MSN</a></p>
+<h2 id="自动链接"><a href="#自动链接" class="headerlink" title="自动链接"></a>自动链接</h2><p>Markdown支持为URL和电子邮件地址创建“自动”链接的快捷方式：只需用尖括号括起URL或电子邮件地址即可。例如：<br><code>&lt;https://baidu.com&gt;</code> <code>&lt;736331518@qq.com&gt;</code></p>
+<p>输出：</p>
+<p><a href="https://baidu.com" target="_blank" rel="noopener">https://baidu.com</a> <a href="mailto:&#55;&#x33;&#54;&#x33;&#51;&#49;&#53;&#49;&#56;&#x40;&#113;&#x71;&#46;&#99;&#111;&#109;" target="_blank" rel="noopener">&#55;&#x33;&#54;&#x33;&#51;&#49;&#53;&#49;&#56;&#x40;&#113;&#x71;&#46;&#99;&#111;&#109;</a></p>
+<p>链接支持相对路径，./表示当前目录，../表示上级目录，不同文档之间的关联采用相对路径。</p>
 <h1 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h1><p>Markdown使用的图片语法类似于链接的语法，允许两种引入</p>
 <h2 id="内联图片"><a href="#内联图片" class="headerlink" title="内联图片"></a>内联图片</h2><p><code>![图片描述文字](../images/icon-next.png)</code><br><code>![图片描述文字](../images/icon-next.png &#39;next主题&#39;)</code></p>
 <p><strong>说明：</strong></p>
@@ -405,14 +483,12 @@
 <li>[] 图片的属性文本</li>
 <li>() 包含图片的url或路径，以及title用双引号或单引号括起来的可选属性。</li>
 </ul>
-<p><img src="../images/icon-next.png" alt="图片描述文字" title="next主题"></p>
+<p><img src="../../../../../images/icon-next.png" alt="图片描述文字" title="next主题"></p>
 <h2 id="参考引用图片"><a href="#参考引用图片" class="headerlink" title="参考引用图片"></a>参考引用图片</h2><p>‘![Alt text][id]’</p>
 <p>id是已经定义图片引用的名称。使用与链接引用相同：<br><code>[id]: url/to/image  &quot;Optional title attribute&quot;</code></p>
 <p>如果需要指定图片的尺寸，可以使用Html <img>标记：<br><code>&lt;img src=&quot;../images/icon-next.png&quot; width=&quot;50px&quot;/&gt;</code></p>
-<p><img src="../images/icon-next.png" width="50px"></p>
-<h1 id="自动链接"><a href="#自动链接" class="headerlink" title="自动链接"></a>自动链接</h1><p>Markdown支持为URL和电子邮件地址创建“自动”链接的快捷方式：只需用尖括号括起URL或电子邮件地址即可。<br><code>&lt;https://baidu.com&gt;</code> <code>&lt;736331518@qq.com&gt;</code></p>
-<p><a href="https://baidu.com" target="_blank" rel="noopener">https://baidu.com</a> <a href="mailto:&#x37;&#x33;&#x36;&#x33;&#51;&#49;&#53;&#49;&#x38;&#x40;&#113;&#x71;&#46;&#99;&#111;&#x6d;" target="_blank" rel="noopener">&#x37;&#x33;&#x36;&#x33;&#51;&#49;&#53;&#49;&#x38;&#x40;&#113;&#x71;&#46;&#99;&#111;&#x6d;</a></p>
-<h1 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h1><p>我们可以使用*,+,-,数字作为列表的关键字。同时列表支持嵌套。<br><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">- </span>服务器端语言</span><br><span class="line"><span class="code">    + java</span></span><br><span class="line"><span class="code">    + .net</span></span><br><span class="line"><span class="code">    + delphy</span></span><br><span class="line"><span class="bullet">- </span>前端语言</span><br><span class="line">  * css</span><br><span class="line">  * html</span><br><span class="line">  * javascript</span><br><span class="line"><span class="bullet">- </span>数据库</span><br><span class="line">  1. sql</span><br><span class="line">  2. mysql</span><br><span class="line">  3. sqlite</span><br><span class="line">  4. oracle</span><br><span class="line"><span class="bullet">- </span>移动端开发(任务列表，非标准Markdown语法)</span><br><span class="line">  - [x]android</span><br><span class="line">  - [ ]IOS</span><br><span class="line">  - [ ]winphone</span><br></pre></td></tr></table></figure></p>
+<p><img src="../../../../../images/icon-next.png" width="50px"></p>
+<h1 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h1><p>Markdown支持无序（项目符号）和有序（数字）列表。<br>无序列表使用星号，加号和连字符作为列表标记；有序列表使用数字后跟点号：<br><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">- </span>服务器端语言</span><br><span class="line"><span class="code">    + java</span></span><br><span class="line"><span class="code">    + .net</span></span><br><span class="line"><span class="code">    + delphy</span></span><br><span class="line"><span class="bullet">- </span>前端语言</span><br><span class="line">  * css</span><br><span class="line">  * html</span><br><span class="line">  * javascript</span><br><span class="line"><span class="bullet">- </span>数据库</span><br><span class="line">  1. sql</span><br><span class="line">  2. mysql</span><br><span class="line">  3. sqlite</span><br><span class="line">  4. oracle</span><br><span class="line"><span class="bullet">- </span>移动端开发(任务列表，非标准Markdown语法)</span><br><span class="line">  - [x]android</span><br><span class="line">  - [ ]IOS</span><br><span class="line">  - [ ]winphone</span><br></pre></td></tr></table></figure></p>
 <ul>
 <li>服务器端语言<ul>
 <li>java</li>
@@ -445,6 +521,12 @@
 <h1 id="段落和换行符"><a href="#段落和换行符" class="headerlink" title="段落和换行符"></a>段落和换行符</h1><p>在文本行之间留一个空行来创建新的段落。</p>
 <h1 id="忽略Markdown的格式"><a href="#忽略Markdown的格式" class="headerlink" title="忽略Markdown的格式"></a>忽略Markdown的格式</h1><p>你可以通过<code>\</code>在Markdown关键字之前使用来转义Markdown关键字。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">\*\*转义Markdown关键字\*\*</span><br></pre></td></tr></table></figure></p>
 <p>输出结果：<br>**转义Markdown关键字**</p>
+<h2 id="特殊字符"><a href="#特殊字符" class="headerlink" title="特殊字符"></a>特殊字符</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">1. 版权符号：&amp;copy;</span><br><span class="line">2. &lt; &amp;lt;</span><br><span class="line">3. &amp; &amp;amp;</span><br></pre></td></tr></table></figure>
+<ol>
+<li>版权符号：&copy;</li>
+<li>&lt; &lt;</li>
+<li>&amp; &amp;</li>
+</ol>
 <blockquote>
 <p>参考：<br><a href="https://help.github.com/articles/basic-writing-and-formatting-syntax/#headings" target="_blank" rel="noopener">https://help.github.com/articles/basic-writing-and-formatting-syntax/#headings</a><br><a href="https://daringfireball.net/projects/markdown/syntax#backslash" target="_blank" rel="noopener">https://daringfireball.net/projects/markdown/syntax#backslash</a></p>
 </blockquote>
@@ -612,7 +694,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#标题"><span class="nav-number">1.</span> <span class="nav-text">标题</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#一级标题"><span class="nav-number">2.</span> <span class="nav-text">一级标题</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#二级标题"><span class="nav-number">2.1.</span> <span class="nav-text">二级标题</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#三级标题"><span class="nav-number">2.1.1.</span> <span class="nav-text">三级标题</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#文本样式"><span class="nav-number">3.</span> <span class="nav-text">文本样式</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#粗体"><span class="nav-number">3.1.</span> <span class="nav-text">粗体</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#斜体"><span class="nav-number">3.2.</span> <span class="nav-text">斜体</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#删除线"><span class="nav-number">3.3.</span> <span class="nav-text">删除线</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#粗体加斜体"><span class="nav-number">3.4.</span> <span class="nav-text">粗体加斜体</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#引用文字"><span class="nav-number">4.</span> <span class="nav-text">引用文字</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#引用代码"><span class="nav-number">5.</span> <span class="nav-text">引用代码</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#使用一个倒引号-引用代码或命令；"><span class="nav-number">5.1.</span> <span class="nav-text">使用一个倒引号`引用代码或命令；</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#使用三个倒引号-引用一段代码；"><span class="nav-number">5.2.</span> <span class="nav-text">使用三个倒引号```引用一段代码；</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#链接"><span class="nav-number">6.</span> <span class="nav-text">链接</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#行内链接示例"><span class="nav-number">6.1.</span> <span class="nav-text">行内链接示例</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#参考链接示例"><span class="nav-number">6.2.</span> <span class="nav-text">参考链接示例</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#图片"><span class="nav-number">7.</span> <span class="nav-text">图片</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#内联图片"><span class="nav-number">7.1.</span> <span class="nav-text">内联图片</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#参考引用图片"><span class="nav-number">7.2.</span> <span class="nav-text">参考引用图片</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#自动链接"><span class="nav-number">8.</span> <span class="nav-text">自动链接</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#列表"><span class="nav-number">9.</span> <span class="nav-text">列表</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#使用表情符号"><span class="nav-number">10.</span> <span class="nav-text">使用表情符号</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#段落和换行符"><span class="nav-number">11.</span> <span class="nav-text">段落和换行符</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#忽略Markdown的格式"><span class="nav-number">12.</span> <span class="nav-text">忽略Markdown的格式</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#标题"><span class="nav-number">1.</span> <span class="nav-text">标题</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#这是一级标题"><span class="nav-number">2.</span> <span class="nav-text">这是一级标题</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#这是二级标题"><span class="nav-number">2.1.</span> <span class="nav-text">这是二级标题</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#一级标题"><span class="nav-number">3.</span> <span class="nav-text">一级标题</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#二级标题"><span class="nav-number">3.1.</span> <span class="nav-text">二级标题</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#三级标题"><span class="nav-number">3.1.1.</span> <span class="nav-text">三级标题</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#文本样式"><span class="nav-number">4.</span> <span class="nav-text">文本样式</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#粗体"><span class="nav-number">4.1.</span> <span class="nav-text">粗体</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#斜体"><span class="nav-number">4.2.</span> <span class="nav-text">斜体</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#删除线"><span class="nav-number">4.3.</span> <span class="nav-text">删除线</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#粗体加斜体"><span class="nav-number">4.4.</span> <span class="nav-text">粗体加斜体</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#块引用"><span class="nav-number">5.</span> <span class="nav-text">块引用</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Markdown使用”-gt-”字符进行块引用。"><span class="nav-number">5.1.</span> <span class="nav-text">Markdown使用”&gt;”字符进行块引用。</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#可以嵌套块引用"><span class="nav-number">5.2.</span> <span class="nav-text">可以嵌套块引用</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#块引用可以包含其他Markdown元素，包括标题，列表和代码块。例如："><span class="nav-number">5.3.</span> <span class="nav-text">块引用可以包含其他Markdown元素，包括标题，列表和代码块。例如：</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#代码引用"><span class="nav-number">6.</span> <span class="nav-text">代码引用</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#使用一个倒引号-引用代码或命令；"><span class="nav-number">6.1.</span> <span class="nav-text">使用一个倒引号`引用代码或命令；</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#使用三个倒引号-引用一段代码；"><span class="nav-number">6.2.</span> <span class="nav-text">使用三个倒引号```引用一段代码；</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#代码块"><span class="nav-number">7.</span> <span class="nav-text">代码块</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#水平规则"><span class="nav-number">8.</span> <span class="nav-text">水平规则</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#链接"><span class="nav-number">9.</span> <span class="nav-text">链接</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#要创建内联链接，请在链接文本结束的方括号后立即使用一组小括号。在括号内，将URL指向链接，以及链接的可选标题，用引号括起来。例如："><span class="nav-number">9.1.</span> <span class="nav-text">要创建内联链接，请在链接文本结束的方括号后立即使用一组小括号。在括号内，将URL指向链接，以及链接的可选标题，用引号括起来。例如：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#参考链接语法："><span class="nav-number">9.2.</span> <span class="nav-text">参考链接语法：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#隐式链接名称"><span class="nav-number">9.3.</span> <span class="nav-text">隐式链接名称</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#参考链接例子："><span class="nav-number">9.4.</span> <span class="nav-text">参考链接例子：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#隐式链接例子："><span class="nav-number">9.5.</span> <span class="nav-text">隐式链接例子：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#自动链接"><span class="nav-number">9.6.</span> <span class="nav-text">自动链接</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#图片"><span class="nav-number">10.</span> <span class="nav-text">图片</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#内联图片"><span class="nav-number">10.1.</span> <span class="nav-text">内联图片</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#参考引用图片"><span class="nav-number">10.2.</span> <span class="nav-text">参考引用图片</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#列表"><span class="nav-number">11.</span> <span class="nav-text">列表</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#使用表情符号"><span class="nav-number">12.</span> <span class="nav-text">使用表情符号</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#段落和换行符"><span class="nav-number">13.</span> <span class="nav-text">段落和换行符</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#忽略Markdown的格式"><span class="nav-number">14.</span> <span class="nav-text">忽略Markdown的格式</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#特殊字符"><span class="nav-number">14.1.</span> <span class="nav-text">特殊字符</span></a></li></ol></li></ol></div>
             
 
           </div>
