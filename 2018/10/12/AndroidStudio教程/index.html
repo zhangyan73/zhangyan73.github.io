@@ -79,19 +79,20 @@
 
 
 
-<meta name="description" content="找不到DDMS从AndroidStudio3.1以后会发现找不到DDMS了,替代品是Android SDK-&amp;gt;tools-&amp;gt;monitor。打开速度有点慢，需等待一会。 布局分析程序uiautomatorviewer布局分析程序，分析页面布局结果，程序路径是Android SDK-&amp;gt;tools-&amp;gt;bin-&amp;gt;uiautomatorviewer  快捷键">
+<meta name="description" content="找不到DDMS从AndroidStudio3.1以后会发现找不到DDMS了,替代品是Android SDK-&amp;gt;tools-&amp;gt;monitor。打开速度有点慢，需等待一会。 布局分析程序uiautomatorviewer布局分析程序，分析页面布局结果，程序路径是Android SDK-&amp;gt;tools-&amp;gt;bin-&amp;gt;uiautomatorviewer  快捷键Ctrl+D">
 <meta property="og:type" content="article">
 <meta property="og:title" content="AndroidStudio教程">
 <meta property="og:url" content="http://yoursite.com/2018/10/12/AndroidStudio教程/index.html">
 <meta property="og:site_name" content="鲁西西的博客">
-<meta property="og:description" content="找不到DDMS从AndroidStudio3.1以后会发现找不到DDMS了,替代品是Android SDK-&amp;gt;tools-&amp;gt;monitor。打开速度有点慢，需等待一会。 布局分析程序uiautomatorviewer布局分析程序，分析页面布局结果，程序路径是Android SDK-&amp;gt;tools-&amp;gt;bin-&amp;gt;uiautomatorviewer  快捷键">
+<meta property="og:description" content="找不到DDMS从AndroidStudio3.1以后会发现找不到DDMS了,替代品是Android SDK-&amp;gt;tools-&amp;gt;monitor。打开速度有点慢，需等待一会。 布局分析程序uiautomatorviewer布局分析程序，分析页面布局结果，程序路径是Android SDK-&amp;gt;tools-&amp;gt;bin-&amp;gt;uiautomatorviewer  快捷键Ctrl+D">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="http://yoursite.com/2018/10/12/images/as1_DDMS.png">
 <meta property="og:image" content="http://yoursite.com/2018/10/12/images/as2_UI%20Automator%20Viewer.png">
-<meta property="og:updated_time" content="2018-10-12T07:10:42.447Z">
+<meta property="og:image" content="http://yoursite.com/2018/10/12/images/AS_xml_design2.png">
+<meta property="og:updated_time" content="2018-10-17T02:43:20.685Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="AndroidStudio教程">
-<meta name="twitter:description" content="找不到DDMS从AndroidStudio3.1以后会发现找不到DDMS了,替代品是Android SDK-&amp;gt;tools-&amp;gt;monitor。打开速度有点慢，需等待一会。 布局分析程序uiautomatorviewer布局分析程序，分析页面布局结果，程序路径是Android SDK-&amp;gt;tools-&amp;gt;bin-&amp;gt;uiautomatorviewer  快捷键">
+<meta name="twitter:description" content="找不到DDMS从AndroidStudio3.1以后会发现找不到DDMS了,替代品是Android SDK-&amp;gt;tools-&amp;gt;monitor。打开速度有点慢，需等待一会。 布局分析程序uiautomatorviewer布局分析程序，分析页面布局结果，程序路径是Android SDK-&amp;gt;tools-&amp;gt;bin-&amp;gt;uiautomatorviewer  快捷键Ctrl+D">
 <meta name="twitter:image" content="http://yoursite.com/2018/10/12/images/as1_DDMS.png">
 
 
@@ -372,7 +373,11 @@
         <h1 id="找不到DDMS"><a href="#找不到DDMS" class="headerlink" title="找不到DDMS"></a>找不到DDMS</h1><p>从AndroidStudio3.1以后会发现找不到DDMS了,替代品是Android SDK-&gt;tools-&gt;monitor。打开速度有点慢，需等待一会。<br><img src="../images/as1_DDMS.png" alt="DDMS" title="DDMS"></p>
 <h1 id="布局分析程序"><a href="#布局分析程序" class="headerlink" title="布局分析程序"></a>布局分析程序</h1><p>uiautomatorviewer布局分析程序，分析页面布局结果，程序路径是Android SDK-&gt;tools-&gt;bin-&gt;uiautomatorviewer</p>
 <p><img src="../images/as2_UI Automator Viewer.png" alt="UI Automator Viewer" title="uiautomatorviewer"></p>
-<h1 id="快捷键"><a href="#快捷键" class="headerlink" title="快捷键"></a>快捷键</h1>
+<h1 id="快捷键"><a href="#快捷键" class="headerlink" title="快捷键"></a>快捷键</h1><p>Ctrl+D    选中两个文件对比</p>
+<h1 id="常见的坑"><a href="#常见的坑" class="headerlink" title="常见的坑"></a>常见的坑</h1><h2 id="XML-Design-Preview-预览空白"><a href="#XML-Design-Preview-预览空白" class="headerlink" title="XML Design,Preview 预览空白"></a>XML Design,Preview 预览空白</h2><p>解决方法：在styles.xml文件中的parent=”…”的Theme加Base.</p>
+<p><img src="../images/AS_xml_design2.png" alt="AndroidStudio 布局不预览"></p>
+<h2 id="Button-默认字母大写"><a href="#Button-默认字母大写" class="headerlink" title="Button 默认字母大写"></a>Button 默认字母大写</h2><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">Button</span></span></span><br><span class="line"><span class="tag">  <span class="attr">android:textAllCaps</span>=<span class="string">"false"</span></span></span><br><span class="line"><span class="tag">  <span class="attr">android:layout_width</span>=<span class="string">"match_parent"</span></span></span><br><span class="line"><span class="tag">  <span class="attr">android:layout_height</span>=<span class="string">"wrap_content"</span></span></span><br><span class="line"><span class="tag">  <span class="attr">android:text</span>=<span class="string">"aaaa"</span>/&gt;</span></span><br></pre></td></tr></table></figure>
+
       
     </div>
     
@@ -396,7 +401,7 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2018/10/12/TabLayout-1/" rel="next" title="TabLayout">
+              <a href="/2018/10/11/TabLayout/" rel="next" title="TabLayout">
                 <i class="fa fa-chevron-left"></i> TabLayout
               </a>
             
@@ -405,6 +410,10 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2018/10/12/hexo常用操作/" rel="prev" title="hexo常用操作">
+                hexo常用操作 <i class="fa fa-chevron-right"></i>
+              </a>
             
           </div>
         </div>
@@ -481,7 +490,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">8</span>
+                  <span class="site-state-item-count">13</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -536,7 +545,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#找不到DDMS"><span class="nav-number">1.</span> <span class="nav-text">找不到DDMS</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#布局分析程序"><span class="nav-number">2.</span> <span class="nav-text">布局分析程序</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#快捷键"><span class="nav-number">3.</span> <span class="nav-text">快捷键</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#找不到DDMS"><span class="nav-number">1.</span> <span class="nav-text">找不到DDMS</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#布局分析程序"><span class="nav-number">2.</span> <span class="nav-text">布局分析程序</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#快捷键"><span class="nav-number">3.</span> <span class="nav-text">快捷键</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#常见的坑"><span class="nav-number">4.</span> <span class="nav-text">常见的坑</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#XML-Design-Preview-预览空白"><span class="nav-number">4.1.</span> <span class="nav-text">XML Design,Preview 预览空白</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Button-默认字母大写"><span class="nav-number">4.2.</span> <span class="nav-text">Button 默认字母大写</span></a></li></ol></li></ol></div>
             
 
           </div>
