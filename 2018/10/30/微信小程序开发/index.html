@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="微信小程序," />
 
 
 
@@ -79,17 +79,26 @@
 
 
 
-<meta name="description" content="目录结构新建一个小程序包含pages,utils两个目录；app.js,app.json,app.wxss,project.config.json四个文件。 小程序包含一个描述整体程序的 app 和多个描述各自页面的 page。 一个小程序主体部分由三个文件组成，必须放在项目的根目录，如下：    列名1 列名2     列1的内容1 列2的内容1   列1的内容2 列2的内容2    遇到的坑1">
+<meta name="description" content="目录结构新建一个小程序包含pages,utils两个目录和app.js,app.json,app.wxss,project.config.json四个文件。 小程序包含一个描述整体程序的 app 和多个描述各自页面的 page。 一个小程序主体部分由三个文件组成，必须放在项目的根目录，如下：    文件 必需 作用     app.js 是 小程序逻辑   app.json 是 小程序公共配置">
+<meta name="keywords" content="微信小程序">
 <meta property="og:type" content="article">
 <meta property="og:title" content="微信小程序开发">
 <meta property="og:url" content="http://yoursite.com/2018/10/30/微信小程序开发/index.html">
 <meta property="og:site_name" content="鲁西西的博客">
-<meta property="og:description" content="目录结构新建一个小程序包含pages,utils两个目录；app.js,app.json,app.wxss,project.config.json四个文件。 小程序包含一个描述整体程序的 app 和多个描述各自页面的 page。 一个小程序主体部分由三个文件组成，必须放在项目的根目录，如下：    列名1 列名2     列1的内容1 列2的内容1   列1的内容2 列2的内容2    遇到的坑1">
+<meta property="og:description" content="目录结构新建一个小程序包含pages,utils两个目录和app.js,app.json,app.wxss,project.config.json四个文件。 小程序包含一个描述整体程序的 app 和多个描述各自页面的 page。 一个小程序主体部分由三个文件组成，必须放在项目的根目录，如下：    文件 必需 作用     app.js 是 小程序逻辑   app.json 是 小程序公共配置">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-10-30T09:39:35.291Z">
+<meta property="og:image" content="http://yoursite.com/2018/10/30/images/201811081439.png">
+<meta property="og:image" content="http://yoursite.com/2018/10/30/images/201811081440.png">
+<meta property="og:image" content="http://yoursite.com/2018/10/30/images/20190111.png">
+<meta property="og:image" content="http://yoursite.com/2018/10/30/images/2019011114.png">
+<meta property="og:image" content="http://yoursite.com/2018/10/30/images/201901111425.png">
+<meta property="og:image" content="http://yoursite.com/2018/10/30/images/201901111426.png">
+<meta property="og:image" content="http://yoursite.com/2018/10/30/images/20190107.png">
+<meta property="og:updated_time" content="2019-01-24T07:13:09.826Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="微信小程序开发">
-<meta name="twitter:description" content="目录结构新建一个小程序包含pages,utils两个目录；app.js,app.json,app.wxss,project.config.json四个文件。 小程序包含一个描述整体程序的 app 和多个描述各自页面的 page。 一个小程序主体部分由三个文件组成，必须放在项目的根目录，如下：    列名1 列名2     列1的内容1 列2的内容1   列1的内容2 列2的内容2    遇到的坑1">
+<meta name="twitter:description" content="目录结构新建一个小程序包含pages,utils两个目录和app.js,app.json,app.wxss,project.config.json四个文件。 小程序包含一个描述整体程序的 app 和多个描述各自页面的 page。 一个小程序主体部分由三个文件组成，必须放在项目的根目录，如下：    文件 必需 作用     app.js 是 小程序逻辑   app.json 是 小程序公共配置">
+<meta name="twitter:image" content="http://yoursite.com/2018/10/30/images/201811081439.png">
 
 
 
@@ -334,10 +343,44 @@
             
 
             
+              <span class="post-meta-divider">|</span>
+            
 
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-check-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">更新于&#58;</span>
+              
+              <time title="更新于" itemprop="dateModified" datetime="2019-01-24T15:13:09+08:00">
+                2019-01-24
+              </time>
             
           </span>
 
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/微信/" itemprop="url" rel="index">
+                    <span itemprop="name">微信</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
           
 
           
@@ -366,31 +409,358 @@
       
 
       
-        <h1 id="目录结构"><a href="#目录结构" class="headerlink" title="目录结构"></a>目录结构</h1><p>新建一个小程序包含pages,utils两个目录；app.js,app.json,app.wxss,project.config.json四个文件。</p>
+        <h1 id="目录结构"><a href="#目录结构" class="headerlink" title="目录结构"></a>目录结构</h1><p>新建一个小程序包含pages,utils两个目录和app.js,app.json,app.wxss,project.config.json四个文件。</p>
 <p>小程序包含一个描述整体程序的 app 和多个描述各自页面的 page。</p>
 <p>一个小程序主体部分由三个文件组成，必须放在项目的根目录，如下：</p>
 <table>
 <thead>
 <tr>
-<th style="text-align:left">列名1</th>
-<th style="text-align:left">列名2</th>
+<th style="text-align:left">文件</th>
+<th style="text-align:left">必需</th>
+<th>作用</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align:left">列1的内容1</td>
-<td style="text-align:left">列2的内容1</td>
+<td style="text-align:left">app.js</td>
+<td style="text-align:left">是</td>
+<td>小程序逻辑</td>
 </tr>
 <tr>
-<td style="text-align:left">列1的内容2</td>
-<td style="text-align:left">列2的内容2</td>
+<td style="text-align:left">app.json</td>
+<td style="text-align:left">是</td>
+<td>小程序公共配置</td>
+</tr>
+<tr>
+<td style="text-align:left">app.wxss</td>
+<td style="text-align:left">否</td>
+<td>小程序公共样式表</td>
 </tr>
 </tbody>
 </table>
+<p>一个小程序页面由四个文件组成，分别是：</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">文件</th>
+<th style="text-align:left">必需</th>
+<th>作用</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">xx.js</td>
+<td style="text-align:left">是</td>
+<td>页面逻辑</td>
+</tr>
+<tr>
+<td style="text-align:left">xx.wxml</td>
+<td style="text-align:left">是</td>
+<td>页面结构</td>
+</tr>
+<tr>
+<td style="text-align:left">xx.json</td>
+<td style="text-align:left">否</td>
+<td>页面配置</td>
+</tr>
+<tr>
+<td style="text-align:left">xx.wxss</td>
+<td style="text-align:left">否</td>
+<td>页面样式表</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>注意：为了方便开发者减少配置项，描述页面的四个文件必须具有相同的路径与文件名。</p>
+</blockquote>
+<h1 id="app-json"><a href="#app-json" class="headerlink" title="app.json"></a>app.json</h1><p>小程序根目录下的 app.json 文件用来对微信小程序进行全局配置，决定页面文件的路径、窗口表现、设置网络超时时间、设置多 tab 等。</p>
+<h2 id="app-json-常用配置项列表"><a href="#app-json-常用配置项列表" class="headerlink" title="app.json 常用配置项列表"></a>app.json 常用配置项列表</h2><table>
+<thead>
+<tr>
+<th style="text-align:left">属性</th>
+<th style="text-align:left">描述</th>
+<th>示例</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">pages</td>
+<td style="text-align:left">页面路径列表 , 数组的第一项代表小程序的初始页面（首页）。</td>
+<td>“pages”: [“pages/index/index”]</td>
+</tr>
+<tr>
+<td style="text-align:left">window</td>
+<td style="text-align:left">全局的默认窗口表现 , 用于设置小程序的状态栏、导航条、标题、窗口背景色。</td>
+<td>“window”:{“navigationBarTitleText”: “标题”}</td>
+</tr>
+<tr>
+<td style="text-align:left">tabBar</td>
+<td style="text-align:left">底部 tab 栏的表现 , 只能配置最少2个、最多5个 tab</td>
+<td>“tabBar”: {“list”: [{“pagePath”: “pages/index/index”,”text”: “首页”}]}</td>
+</tr>
+<tr>
+<td style="text-align:left">networkTimeout</td>
+<td style="text-align:left">网络超时时间</td>
+<td>“networkTimeout”: {“request”: 10000,”downloadFile”: 10000}</td>
+</tr>
+<tr>
+<td style="text-align:left">debug</td>
+<td style="text-align:left">是否开启 debug 模式，默认关闭</td>
+<td>“debug”: true</td>
+</tr>
+</tbody>
+</table>
+<h1 id="页面-Page"><a href="#页面-Page" class="headerlink" title="页面 Page"></a>页面 Page</h1><p>Page(Object) 函数用来注册一个页面。接受一个 Object 类型参数，其指定页面的初始数据、生命周期回调、事件处理函数等。</p>
+<h2 id="Object-参数说明："><a href="#Object-参数说明：" class="headerlink" title="Object 参数说明："></a>Object 参数说明：</h2><table>
+<thead>
+<tr>
+<th style="text-align:left">属性</th>
+<th style="text-align:left">描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">data</td>
+<td style="text-align:left">页面的初始数据 , 页面第一次渲染使用的初始数据。</td>
+</tr>
+<tr>
+<td style="text-align:left">onLoad</td>
+<td style="text-align:left">生命周期回调—监听页面加载</td>
+</tr>
+<tr>
+<td style="text-align:left">onShow</td>
+<td style="text-align:left">生命周期回调—监听页面显示</td>
+</tr>
+<tr>
+<td style="text-align:left">onReady</td>
+<td style="text-align:left">生命周期回调—监听页面初次渲染完成</td>
+</tr>
+<tr>
+<td style="text-align:left">onHide</td>
+<td style="text-align:left">生命周期回调—监听页面隐藏</td>
+</tr>
+<tr>
+<td style="text-align:left">onUnload</td>
+<td style="text-align:left">生命周期回调—监听页面卸载</td>
+</tr>
+<tr>
+<td style="text-align:left">onPullDownRefresh</td>
+<td style="text-align:left">监听用户下拉动作</td>
+</tr>
+<tr>
+<td style="text-align:left">onReachBottom</td>
+<td style="text-align:left">页面上拉触底事件的处理函数</td>
+</tr>
+<tr>
+<td style="text-align:left">onShareAppMessage</td>
+<td style="text-align:left">用户点击右上角转发</td>
+</tr>
+<tr>
+<td style="text-align:left">onPageScroll</td>
+<td style="text-align:left">页面滚动触发事件的处理函数</td>
+</tr>
+<tr>
+<td style="text-align:left">onResize</td>
+<td style="text-align:left">页面尺寸改变时触发，详见 响应显示区域变化</td>
+</tr>
+<tr>
+<td style="text-align:left">onTabItemTap</td>
+<td style="text-align:left">当前是 tab 页时，点击 tab 时触发</td>
+</tr>
+<tr>
+<td style="text-align:left">其他</td>
+<td style="text-align:left">开发者可以添加任意的函数或数据到 Object 参数中，在页面的函数中用 this 可以访问</td>
+</tr>
+</tbody>
+</table>
+<h2 id="setData-Object-data-Function-callback"><a href="#setData-Object-data-Function-callback" class="headerlink" title="setData(Object data, Function callback)"></a>setData(Object data, Function callback)</h2><p><strong>setData 函数用于将数据从逻辑层发送到视图层（异步），同时改变对应的 this.data 的值（同步）。</strong><br>Object 以 key: value 的形式表示，将 this.data 中的 key 对应的值改变成 value。其中 key 可以以数据路径的形式给出，支持改变数组中的某一项或对象的某个属性，如 array[2].message，a.b.c.d，并且不需要在 this.data 中预先定义。</p>
+<blockquote>
+<p>注意：</p>
+<ol>
+<li>直接修改 this.data 而不调用 this.setData 是无法改变页面的状态的，还会造成数据不一致。</li>
+<li>仅支持设置可 JSON 化的数据。</li>
+<li>单次设置的数据不能超过1024kB，请尽量避免一次设置过多的数据。</li>
+<li>请不要把 data 中任何一项的 value 设为 undefined ，否则这一项将不被设置并可能遗留一些潜在问题。</li>
+</ol>
+</blockquote>
+<h1 id="页面跳转-路由"><a href="#页面跳转-路由" class="headerlink" title="页面跳转/路由"></a>页面跳转/路由</h1><table>
+<thead>
+<tr>
+<th style="text-align:left">路由方式</th>
+<th style="text-align:left">触发时机</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">初始化</td>
+<td style="text-align:left">小程序打开的第一个页面</td>
+</tr>
+<tr>
+<td style="text-align:left">打开新页面</td>
+<td style="text-align:left">调用 API wx.navigateTo</td>
+</tr>
+<tr>
+<td style="text-align:left">页面重定向</td>
+<td style="text-align:left">调用 API wx.redirectTo</td>
+</tr>
+<tr>
+<td style="text-align:left">页面返回</td>
+<td style="text-align:left">调用 API wx.navigateBack</td>
+</tr>
+<tr>
+<td style="text-align:left">Tab 切换</td>
+<td style="text-align:left">调用 API wx.switchTab</td>
+</tr>
+<tr>
+<td style="text-align:left">重启动</td>
+<td style="text-align:left">调用 API wx.reLaunch</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>Tips:</p>
+<ul>
+<li>navigateTo, redirectTo 只能打开非 tabBar 页面。</li>
+</ul>
+<ol start="2">
+<li>switchTab 只能打开 tabBar 页面。</li>
+<li>reLaunch 可以打开任意页面。</li>
+<li>页面底部的 tabBar 由页面决定，即只要是定义为 tabBar 的页面，底部都有 tabBar。</li>
+<li>调用页面路由带的参数可以在目标页面的onLoad中获取</li>
+</ol>
+</blockquote>
+<h1 id="数据绑定"><a href="#数据绑定" class="headerlink" title="数据绑定"></a>数据绑定</h1><p>页面中的动态数据均来自对应 Page 的 data。</p>
+<h2 id="简单绑定"><a href="#简单绑定" class="headerlink" title="简单绑定"></a>简单绑定</h2><p>数据绑定使用 Mustache 语法（双大括号）将变量包起来，可以作用于：</p>
+<p><code>&lt;view&gt;  &lt;/view&gt;</code></p>
+<h2 id="wx-for"><a href="#wx-for" class="headerlink" title="wx:for"></a>wx:for</h2><p>在组件上使用 wx:for 控制属性绑定一个数组，即可使用数组中各项的数据重复渲染该组件。</p>
+<p>默认数组的当前项的下标变量名默认为 index，数组当前项的变量名默认为 item<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;view wx:for=&quot;&#123;&#123;array&#125;&#125;&quot;&gt;</span><br><span class="line">  &#123;&#123;index&#125;&#125;: &#123;&#123;item.message&#125;&#125;</span><br><span class="line">&lt;/view&gt;</span><br></pre></td></tr></table></figure></p>
+<p>使用 wx:for-item 可以指定数组当前元素的变量名，使用 wx:for-index 可以指定数组当前下标的变量名：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;view wx:for=&quot;&#123;&#123;array&#125;&#125;&quot; wx:for-index=&quot;idx&quot; wx:for-item=&quot;itemName&quot;&gt;</span><br><span class="line">  &#123;&#123;idx&#125;&#125;: &#123;&#123;itemName.message&#125;&#125;</span><br><span class="line">&lt;/view&gt;</span><br></pre></td></tr></table></figure></p>
+<h2 id="wx-if"><a href="#wx-if" class="headerlink" title="wx:if"></a>wx:if</h2><p>在框架中，使用 wx:if=”“ 来判断是否需要渲染该代码块：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;view wx:if=&quot;&#123;&#123;condition&#125;&#125;&quot;&gt; True &lt;/view&gt;</span><br></pre></td></tr></table></figure></p>
+<p>也可以用 wx:elif 和 wx:else 来添加一个 else 块：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;view wx:if=&quot;&#123;&#123;length &gt; 5&#125;&#125;&quot;&gt; 1 &lt;/view&gt;</span><br><span class="line">&lt;view wx:elif=&quot;&#123;&#123;length &gt; 2&#125;&#125;&quot;&gt; 2 &lt;/view&gt;</span><br><span class="line">&lt;view wx:else&gt; 3 &lt;/view&gt;</span><br></pre></td></tr></table></figure></p>
+<h1 id="事件"><a href="#事件" class="headerlink" title="事件"></a>事件</h1><ul>
+<li>事件是视图层到逻辑层的通讯方式。</li>
+<li>事件可以将用户的行为反馈到逻辑层进行处理。</li>
+<li>事件可以绑定在组件上，当达到触发事件，就会执行逻辑层中对应的事件处理函数。</li>
+<li>事件对象可以携带额外信息，如 id, dataset, touches。<h2 id="事件绑定"><a href="#事件绑定" class="headerlink" title="事件绑定"></a>事件绑定</h2>绑定bindtap事件<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;view id=&quot;tapTest&quot; data-hi=&quot;WeChat&quot; bindtap=&quot;tapName&quot;&gt; Click me! &lt;/view&gt;</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">Page(&#123;</span><br><span class="line">  tapName: <span class="function"><span class="keyword">function</span>(<span class="params">event</span>) </span>&#123;</span><br><span class="line">    <span class="built_in">console</span>.log(event)</span><br><span class="line">  &#125;</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
+<h2 id="事件分类"><a href="#事件分类" class="headerlink" title="事件分类"></a>事件分类</h2><p>事件分为冒泡事件和非冒泡事件：</p>
+<ul>
+<li>冒泡事件：当一个组件上的事件被触发后，该事件会向父节点传递。</li>
+<li>非冒泡事件：当一个组件上的事件被触发后，该事件不会向父节点传递。</li>
+</ul>
+<h2 id="冒泡事件列表"><a href="#冒泡事件列表" class="headerlink" title="冒泡事件列表"></a>冒泡事件列表</h2><table>
+<thead>
+<tr>
+<th style="text-align:left">类型</th>
+<th style="text-align:left">触发条件</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">touchstart</td>
+<td style="text-align:left">手指触摸动作开始</td>
+</tr>
+<tr>
+<td style="text-align:left">touchmove</td>
+<td style="text-align:left">手指触摸后移动</td>
+</tr>
+<tr>
+<td style="text-align:left">touchcancel</td>
+<td style="text-align:left">手指触摸动作被打断，如来电提醒，弹窗</td>
+</tr>
+<tr>
+<td style="text-align:left">touchend</td>
+<td style="text-align:left">手指触摸动作结束</td>
+</tr>
+<tr>
+<td style="text-align:left">tap</td>
+<td style="text-align:left">手指触摸后马上离开</td>
+</tr>
+<tr>
+<td style="text-align:left">longpress</td>
+<td style="text-align:left">手指触摸后，超过350ms再离开，如果指定了事件回调函数并触发了这个事件，tap事件将不被触发</td>
+</tr>
+<tr>
+<td style="text-align:left">longtap</td>
+<td style="text-align:left">手指触摸后，超过350ms再离开（推荐使用longpress事件代替）</td>
+</tr>
+<tr>
+<td style="text-align:left">transitionend</td>
+<td style="text-align:left">会在 WXSS transition 或 wx.createAnimation 动画结束后触发</td>
+</tr>
+<tr>
+<td style="text-align:left">animationstart</td>
+<td style="text-align:left">会在一个 WXSS animation 动画开始时触发</td>
+</tr>
+<tr>
+<td style="text-align:left">animationiteration</td>
+<td style="text-align:left">会在一个 WXSS animation 一次迭代结束时触发</td>
+</tr>
+<tr>
+<td style="text-align:left">animationend</td>
+<td style="text-align:left">会在一个 WXSS animation 动画完成时触发</td>
+</tr>
+<tr>
+<td style="text-align:left">touchforcechange</td>
+<td style="text-align:left">在支持 3D Touch 的 iPhone 设备，重按时会触发</td>
+</tr>
+</tbody>
+</table>
+<h2 id="事件绑定和冒泡"><a href="#事件绑定和冒泡" class="headerlink" title="事件绑定和冒泡"></a>事件绑定和冒泡</h2><p>事件绑定的写法同组件的属性，以 key、value 的形式。</p>
+<ul>
+<li>key 以bind或catch开头，然后跟上事件的类型，如bindtap、catchtouchstart。自基础库版本 1.5.0 起，在非原生组件中，bind和catch后可以紧跟一个冒号，其含义不变，如bind:tap、catch:touchstart。</li>
+<li>value 是一个字符串，需要在对应的 Page 中定义同名的函数。不然当触发事件的时候会报错。</li>
+<li>bind事件绑定不会阻止冒泡事件向上冒泡，catch事件绑定可以阻止冒泡事件向上冒泡。</li>
+</ul>
+<h1 id="上传代码"><a href="#上传代码" class="headerlink" title="上传代码"></a>上传代码</h1><p>同预览不同，上传代码是用于提交体验或者审核使用的。</p>
+<p>点击开发者菜单栏工具–&gt;上传按钮，填写版本号以及项目备注，需要注意的是，这里版本号以及项目备注是为了方便管理员检查版本使用的，开发者可以根据自己的实际要求来填写这两个字段。</p>
+<p>上传成功之后，登录小程序管理后台 - 开发管理 - 开发版本 就可以找到刚提交上传的版本了。</p>
+<p>可以将这个版本设置 体验版 或者是 提交审核。</p>
+<h1 id="image-加载base64图片"><a href="#image-加载base64图片" class="headerlink" title="image 加载base64图片"></a>image 加载base64图片</h1><ol>
+<li>base64转成二进制流</li>
+</ol>
+<p><code>var array = wx.base64ToArrayBuffer(res.data);</code></p>
+<ol start="2">
+<li>二进制流转换成base64:</li>
+</ol>
+<p><code>var base64 = wx.arrayBufferToBase64(data);</code></p>
+<ol start="3">
+<li>image标签加载base64:</li>
+</ol>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">// javascript</span><br><span class="line">var file = &quot;data:image/png;base64,&quot; + base64;</span><br><span class="line"></span><br><span class="line">// html</span><br><span class="line">&lt;image src = &#123;&#123;file&#125;&#125;/&gt;</span><br></pre></td></tr></table></figure>
 <h1 id="遇到的坑"><a href="#遇到的坑" class="headerlink" title="遇到的坑"></a>遇到的坑</h1><h2 id="1-全局配置文件app-json中backgroundColor“无效”"><a href="#1-全局配置文件app-json中backgroundColor“无效”" class="headerlink" title="1. 全局配置文件app.json中backgroundColor“无效”"></a>1. 全局配置文件app.json中backgroundColor“无效”</h2><p>原来，window的这个属性指的是下拉当前页面后出现的刷新页面的窗口背景色，而不是当前页面的背景色，而当前页面的背景色可以用page这个标签选择器进行配置:<br><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">page</span>&#123;</span><br><span class="line">  <span class="attribute">background-color</span>: <span class="number">#f1f1f1</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
 <h2 id="2-动态增加class"><a href="#2-动态增加class" class="headerlink" title="2. 动态增加class"></a>2. 动态增加class</h2><p>小程序没有增加css的方法，可以通过数据绑定动态修改class:<br><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">// xxx.wxss文件</span><br><span class="line"><span class="selector-class">.piao_type_item</span>&#123;</span><br><span class="line">  <span class="attribute">display</span>:block;</span><br><span class="line">  <span class="attribute">width</span>:<span class="number">50%</span>;</span><br><span class="line">  <span class="attribute">height</span>:<span class="number">100%</span>;</span><br><span class="line">  <span class="attribute">line-height</span>:<span class="number">80</span>rpx;</span><br><span class="line">  <span class="attribute">text-align</span>:center;</span><br><span class="line">  <span class="attribute">border-radius</span>:<span class="number">100</span>rpx;</span><br><span class="line">  <span class="attribute">color</span>: <span class="number">#007CC2</span>;</span><br><span class="line">  <span class="attribute">font-size</span>: <span class="number">12pt</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.active_blue</span>&#123;</span><br><span class="line">  <span class="attribute">background-color</span>:<span class="number">#007CC2</span>;</span><br><span class="line">  <span class="attribute">color</span>: <span class="number">#FFFFFF</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// xxx.js文件</span></span><br><span class="line">data:&#123;</span><br><span class="line">  billType: [</span><br><span class="line">      <span class="string">"银票"</span>,</span><br><span class="line">      <span class="string">"商票"</span></span><br><span class="line">    ],</span><br><span class="line">  billTypeSelected:<span class="number">0</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">// xxx.wxml文件</span><br><span class="line"><span class="tag">&lt;<span class="name">view</span> <span class="attr">class</span>=<span class="string">'piao_type'</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">text</span> <span class="attr">class</span>=<span class="string">'piao_type_item &#123;&#123;index == billTypeSelected ? "active_blue":""&#125;&#125;'</span> <span class="attr">wx:for</span>=<span class="string">"&#123;&#123;billType&#125;&#125;"</span> <span class="attr">id</span>=<span class="string">'&#123;&#123;index&#125;&#125;'</span> <span class="attr">bindtap</span>=<span class="string">'billType'</span>&gt;</span>&#123;&#123;item&#125;&#125;<span class="tag">&lt;/<span class="name">text</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">view</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<h2 id="3-在小程序管理后台找不到上传的代码"><a href="#3-在小程序管理后台找不到上传的代码" class="headerlink" title="3. 在小程序管理后台找不到上传的代码"></a>3. 在小程序管理后台找不到上传的代码</h2><p>确认小程序管理后台的AppID和小程序开发工具的AppID是否一致，如果不一致，修改为一致，然后再上传，此时能够在开发管理中看到上传的代码。</p>
+<p><img src="../images/201811081439.png" alt=""><br><img src="../images/201811081440.png" alt=""></p>
+<h2 id="background-image-url"><a href="#background-image-url" class="headerlink" title="background-image:url()"></a>background-image:url()</h2><p>background-image只能够使用网络图片，或者 base64；image可以加载本地图片</p>
+<h3 id="background加载网络图片和base64"><a href="#background加载网络图片和base64" class="headerlink" title="background加载网络图片和base64"></a>background加载网络图片和base64</h3><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.bg</span>&#123;</span><br><span class="line">  <span class="attribute">background</span>: <span class="built_in">url</span>(<span class="string">'http://192.168.31.163:8020/pr/source/img/searchLeft.png'</span>)</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.bg2</span>&#123;</span><br><span class="line">  <span class="attribute">background</span>: <span class="built_in">url</span>(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAgCAYAAABgrToAAAAAAXNSR0IArs4c6QAAAHlJREFUWAnt2LEJwDAMRFE5c2ShLOKhsp69h3ISeAI1CnyBiJvA8dwcHu7+mNmrvbWdZivMHAq4dOgW7kDt65y6fiPg1AZnt8kr7haKPAgggAACfxOIskCbKdwabaaAlw0rmhaDAAIIIIBAQYA2U8CLX2kzFcB8m/kAgGUmQShl8pcAAAAASUVORK5CYII=)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>图片转换成base64 <a href="http://imgbase64.duoshitong.com/" target="_blank" rel="noopener">http://imgbase64.duoshitong.com/</a></p>
+</blockquote>
+<h3 id="下面通过-image-标签src属性设置，实现背景图显示"><a href="#下面通过-image-标签src属性设置，实现背景图显示" class="headerlink" title="下面通过 image 标签src属性设置，实现背景图显示"></a>下面通过 image 标签src属性设置，实现背景图显示</h3><p>wxml:<br><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">view</span> <span class="attr">class</span>=<span class="string">'set-background'</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">image</span> <span class="attr">class</span>=<span class="string">'background-image'</span> <span class="attr">src</span>=<span class="string">'/img/card1.png'</span>&gt;</span><span class="tag">&lt;/<span class="name">image</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">view</span> <span class="attr">class</span>=<span class="string">'background-content'</span>&gt;</span></span><br><span class="line">    111111</span><br><span class="line">  <span class="tag">&lt;/<span class="name">view</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">view</span>&gt;</span></span><br></pre></td></tr></table></figure></p>
+<p>wxss样式：<br><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.set-background</span>&#123;</span><br><span class="line">  <span class="attribute">display</span>: flex;</span><br><span class="line">  <span class="attribute">flex-direction</span>: column;</span><br><span class="line">  <span class="attribute">align-items</span>: center;</span><br><span class="line">  <span class="attribute">height</span>: <span class="number">150px</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.background-image</span>&#123;</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">90%</span>;</span><br><span class="line">  <span class="attribute">height</span>: <span class="number">100%</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.background-content</span>&#123;</span><br><span class="line">  <span class="attribute">display</span>:flex;</span><br><span class="line">  <span class="attribute">flex-direction</span>:column;</span><br><span class="line">  <span class="attribute">box-sizing</span>:border-box;</span><br><span class="line">  <span class="attribute">position</span>: absolute;</span><br><span class="line">  <span class="attribute">width</span>:<span class="number">90%</span>;</span><br><span class="line">  <span class="attribute">padding</span>:<span class="number">10</span>rpx;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<h2 id="4-遮罩层滑动穿透问题"><a href="#4-遮罩层滑动穿透问题" class="headerlink" title="4. 遮罩层滑动穿透问题"></a>4. 遮罩层滑动穿透问题</h2><p>具体描述：显示弹窗时，遮罩层下面的页面依旧可以促发滑动事件。</p>
+<p>解决方法：在遮罩层加 catchtouchmove=’true’属性，在开发者工具上无效，在真机上测试有效。</p>
+<h2 id="5-关于微信小程序使用wxParse报错：-thirdScriptError-console-dir-is-not-a-function"><a href="#5-关于微信小程序使用wxParse报错：-thirdScriptError-console-dir-is-not-a-function" class="headerlink" title="5. 关于微信小程序使用wxParse报错： thirdScriptError console.dir is not a function"></a>5. 关于微信小程序使用wxParse报错： thirdScriptError console.dir is not a function</h2><p>解决办法：把wxParse插件下的html2json.js里的console.dir注释掉或者替换成console.log。</p>
+<h2 id="6-文本溢出时以省略号显示"><a href="#6-文本溢出时以省略号显示" class="headerlink" title="6. 文本溢出时以省略号显示"></a>6. 文本溢出时以省略号显示</h2><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">&lt;!<span class="selector-tag">--</span> 必须是块标签 <span class="selector-tag">--</span>&gt;</span><br><span class="line">&lt;view class='bill_bank'&gt;名称过长建议用省略号显示，保证名称只有一行，不要换行&lt;/view&gt;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.bill_bank</span>&#123;</span><br><span class="line">  <span class="attribute">flex</span>: <span class="number">2</span>;</span><br><span class="line">  <span class="attribute">color</span>:<span class="number">#666666</span>;</span><br><span class="line">  <span class="attribute">overflow</span>: hidden;</span><br><span class="line">  <span class="attribute">text-overflow</span>: ellipsis;</span><br><span class="line">  <span class="attribute">white-space</span>: nowrap;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="6-微信小程序开发者工具构建npm提示没找到node-modules目录"><a href="#6-微信小程序开发者工具构建npm提示没找到node-modules目录" class="headerlink" title="6. 微信小程序开发者工具构建npm提示没找到node_modules目录"></a>6. 微信小程序开发者工具构建npm提示没找到node_modules目录</h2><ol>
+<li>官网给的文档写的不够充分，需要你充分理解npm的使用方法，才能明白的；</li>
+<li>步骤：<ul>
+<li>在项目根目录创建node_modules文件夹</li>
+<li>在终端输入命令：cmd 小程序根目录；</li>
+<li>在终端输入命令：npm init；</li>
+<li>在终端输入命令：npm install –save miniprogram-sm-crypto；</li>
+<li>在开发工具：工具—构建npm；<br><img src="../images/20190111.png" alt=""><br><img src="../images/2019011114.png" alt=""><br><img src="../images/201901111425.png" alt=""><br><img src="../images/201901111426.png" alt=""></li>
+</ul>
+</li>
+</ol>
+<h1 id="样式"><a href="#样式" class="headerlink" title="样式"></a>样式</h1><h2 id="1-列表项分割线"><a href="#1-列表项分割线" class="headerlink" title="1. 列表项分割线"></a>1. 列表项分割线</h2><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.navigator</span> &#123;</span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">20</span>rpx <span class="number">30</span>rpx;</span><br><span class="line">  <span class="attribute">position</span>: relative;</span><br><span class="line">  <span class="attribute">display</span>: flex;</span><br><span class="line">  <span class="attribute">align-items</span>: center;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.navigator</span><span class="selector-pseudo">:before</span> &#123;</span><br><span class="line">  <span class="attribute">content</span>: <span class="string">" "</span>;</span><br><span class="line">  <span class="attribute">position</span>: absolute;</span><br><span class="line">  <span class="attribute">left</span>: <span class="number">30</span>rpx;</span><br><span class="line">  <span class="attribute">top</span>: <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">right</span>: <span class="number">30</span>rpx;</span><br><span class="line">  <span class="attribute">height</span>: <span class="number">1px</span>;</span><br><span class="line">  <span class="attribute">border-top</span>: <span class="number">1</span>rpx solid <span class="number">#D8D8D8</span>;</span><br><span class="line">  <span class="attribute">color</span>: <span class="number">#D8D8D8</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.navigator</span><span class="selector-pseudo">:first-child</span><span class="selector-pseudo">:before</span> &#123;</span><br><span class="line">  <span class="attribute">display</span>: none;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p><img src="../images/20190107.png" alt=""></p>
+<h2 id="2-箭头"><a href="#2-箭头" class="headerlink" title="2. 箭头"></a>2. 箭头</h2><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/* 画上右两条边框，然后旋转*/</span></span><br><span class="line"></span><br><span class="line"><span class="selector-class">.navigator-arrow</span> &#123;</span><br><span class="line">  <span class="attribute">padding-right</span>: <span class="number">26</span>rpx;</span><br><span class="line">  <span class="attribute">position</span>: relative;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.navigator-arrow</span><span class="selector-pseudo">:after</span> &#123;</span><br><span class="line">  <span class="attribute">content</span>: <span class="string">" "</span>;</span><br><span class="line">  <span class="attribute">display</span>: inline-block;</span><br><span class="line">  <span class="attribute">height</span>: <span class="number">18</span>rpx;</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">18</span>rpx;</span><br><span class="line">  <span class="attribute">border-width</span>: <span class="number">2</span>rpx <span class="number">2</span>rpx <span class="number">0</span> <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">border-color</span>: <span class="number">#888888</span>;</span><br><span class="line">  <span class="attribute">border-style</span>: solid;</span><br><span class="line">  <span class="attribute">transform</span>: <span class="built_in">matrix</span>(0.71, 0.71, -0.71, 0.71, 0, 0);</span><br><span class="line">  <span class="attribute">position</span>: absolute;</span><br><span class="line">  <span class="attribute">top</span>: <span class="number">50%</span>;</span><br><span class="line">  <span class="attribute">margin-top</span>: -<span class="number">8</span>rpx;</span><br><span class="line">  <span class="attribute">right</span>: <span class="number">28</span>rpx;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">/*方法二*/</span></span><br><span class="line"><span class="selector-class">.arrow</span>&#123;</span><br><span class="line">	<span class="attribute">width</span>: <span class="number">10px</span>;</span><br><span class="line">	<span class="attribute">height</span>: <span class="number">10px</span>;</span><br><span class="line">	<span class="attribute">margin-top</span>: <span class="number">10px</span>;</span><br><span class="line">	<span class="attribute">border-width</span>: <span class="number">2px</span> <span class="number">2px</span> <span class="number">0</span> <span class="number">0</span>;</span><br><span class="line">	<span class="attribute">border-color</span>: <span class="number">#d9d9d9</span>;</span><br><span class="line">	<span class="attribute">border-style</span>: solid;</span><br><span class="line">	<span class="attribute">transform</span>: <span class="built_in">rotate</span>(45deg);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
       
     </div>
@@ -405,6 +775,12 @@
     
 
     <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/微信小程序/" rel="tag"># 微信小程序</a>
+          
+        </div>
       
 
       
@@ -425,8 +801,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2018/10/31/css居中属性/" rel="prev" title="css居中属性">
-                css居中属性 <i class="fa fa-chevron-right"></i>
+              <a href="/2018/11/02/css常见布局/" rel="prev" title="css常见布局">
+                css常见布局 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -504,7 +880,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">13</span>
+                  <span class="site-state-item-count">24</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -514,10 +890,10 @@
               
               
               <div class="site-state-item site-state-categories">
-                
-                  <span class="site-state-item-count">1</span>
+                <a href="/categories/index.html">
+                  <span class="site-state-item-count">5</span>
                   <span class="site-state-item-name">分类</span>
-                
+                </a>
               </div>
             
 
@@ -526,7 +902,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">4</span>
+                  <span class="site-state-item-count">9</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
@@ -559,7 +935,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#目录结构"><span class="nav-number">1.</span> <span class="nav-text">目录结构</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#遇到的坑"><span class="nav-number">2.</span> <span class="nav-text">遇到的坑</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-全局配置文件app-json中backgroundColor“无效”"><span class="nav-number">2.1.</span> <span class="nav-text">1. 全局配置文件app.json中backgroundColor“无效”</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-动态增加class"><span class="nav-number">2.2.</span> <span class="nav-text">2. 动态增加class</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#目录结构"><span class="nav-number">1.</span> <span class="nav-text">目录结构</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#app-json"><span class="nav-number">2.</span> <span class="nav-text">app.json</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#app-json-常用配置项列表"><span class="nav-number">2.1.</span> <span class="nav-text">app.json 常用配置项列表</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#页面-Page"><span class="nav-number">3.</span> <span class="nav-text">页面 Page</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Object-参数说明："><span class="nav-number">3.1.</span> <span class="nav-text">Object 参数说明：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#setData-Object-data-Function-callback"><span class="nav-number">3.2.</span> <span class="nav-text">setData(Object data, Function callback)</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#页面跳转-路由"><span class="nav-number">4.</span> <span class="nav-text">页面跳转/路由</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#数据绑定"><span class="nav-number">5.</span> <span class="nav-text">数据绑定</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#简单绑定"><span class="nav-number">5.1.</span> <span class="nav-text">简单绑定</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#wx-for"><span class="nav-number">5.2.</span> <span class="nav-text">wx:for</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#wx-if"><span class="nav-number">5.3.</span> <span class="nav-text">wx:if</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#事件"><span class="nav-number">6.</span> <span class="nav-text">事件</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#事件绑定"><span class="nav-number">6.1.</span> <span class="nav-text">事件绑定</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#事件分类"><span class="nav-number">6.2.</span> <span class="nav-text">事件分类</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#冒泡事件列表"><span class="nav-number">6.3.</span> <span class="nav-text">冒泡事件列表</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#事件绑定和冒泡"><span class="nav-number">6.4.</span> <span class="nav-text">事件绑定和冒泡</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#上传代码"><span class="nav-number">7.</span> <span class="nav-text">上传代码</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#image-加载base64图片"><span class="nav-number">8.</span> <span class="nav-text">image 加载base64图片</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#遇到的坑"><span class="nav-number">9.</span> <span class="nav-text">遇到的坑</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-全局配置文件app-json中backgroundColor“无效”"><span class="nav-number">9.1.</span> <span class="nav-text">1. 全局配置文件app.json中backgroundColor“无效”</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-动态增加class"><span class="nav-number">9.2.</span> <span class="nav-text">2. 动态增加class</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-在小程序管理后台找不到上传的代码"><span class="nav-number">9.3.</span> <span class="nav-text">3. 在小程序管理后台找不到上传的代码</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#background-image-url"><span class="nav-number">9.4.</span> <span class="nav-text">background-image:url()</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#background加载网络图片和base64"><span class="nav-number">9.4.1.</span> <span class="nav-text">background加载网络图片和base64</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#下面通过-image-标签src属性设置，实现背景图显示"><span class="nav-number">9.4.2.</span> <span class="nav-text">下面通过 image 标签src属性设置，实现背景图显示</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-遮罩层滑动穿透问题"><span class="nav-number">9.5.</span> <span class="nav-text">4. 遮罩层滑动穿透问题</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#5-关于微信小程序使用wxParse报错：-thirdScriptError-console-dir-is-not-a-function"><span class="nav-number">9.6.</span> <span class="nav-text">5. 关于微信小程序使用wxParse报错： thirdScriptError console.dir is not a function</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#6-文本溢出时以省略号显示"><span class="nav-number">9.7.</span> <span class="nav-text">6. 文本溢出时以省略号显示</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#6-微信小程序开发者工具构建npm提示没找到node-modules目录"><span class="nav-number">9.8.</span> <span class="nav-text">6. 微信小程序开发者工具构建npm提示没找到node_modules目录</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#样式"><span class="nav-number">10.</span> <span class="nav-text">样式</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-列表项分割线"><span class="nav-number">10.1.</span> <span class="nav-text">1. 列表项分割线</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-箭头"><span class="nav-number">10.2.</span> <span class="nav-text">2. 箭头</span></a></li></ol></li></ol></div>
             
 
           </div>
@@ -579,7 +955,7 @@
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
   <span class="with-love">
     <i class="fa fa-user"></i>
   </span>

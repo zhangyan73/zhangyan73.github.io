@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="博客," />
 
 
 
@@ -80,6 +80,7 @@
 
 
 <meta name="description" content="标题Markdown支持两种样式的标题，Setext和atx。  Setext样式的标题使用等号（对于第一级标题）和破折号（对于第二级标题）“加下划线”。例如：  1234这是一级标题============这是二级标题------------ 输出结果： 这是一级标题这是二级标题 Atx样式的标题在行的开头使用1-6个#字符，对应于标题级别1-6。例如：  123# 一级标题## 二级标题###">
+<meta name="keywords" content="博客">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Markdown语法1">
 <meta property="og:url" content="http://yoursite.com/2018/09/06/Markdown语法1/index.html">
@@ -88,7 +89,7 @@
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="http://yoursite.com/images/icon-next.png">
 <meta property="og:image" content="http://yoursite.com/images/icon-next.png">
-<meta property="og:updated_time" content="2018-10-30T08:48:14.710Z">
+<meta property="og:updated_time" content="2018-11-09T08:48:55.270Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Markdown语法1">
 <meta name="twitter:description" content="标题Markdown支持两种样式的标题，Setext和atx。  Setext样式的标题使用等号（对于第一级标题）和破折号（对于第二级标题）“加下划线”。例如：  1234这是一级标题============这是二级标题------------ 输出结果： 这是一级标题这是二级标题 Atx样式的标题在行的开头使用1-6个#字符，对应于标题级别1-6。例如：  123# 一级标题## 二级标题###">
@@ -337,10 +338,44 @@
             
 
             
+              <span class="post-meta-divider">|</span>
+            
 
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-check-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">更新于&#58;</span>
+              
+              <time title="更新于" itemprop="dateModified" datetime="2018-11-09T16:48:55+08:00">
+                2018-11-09
+              </time>
             
           </span>
 
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/工具/" itemprop="url" rel="index">
+                    <span itemprop="name">工具</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
           
 
           
@@ -493,7 +528,7 @@ else
 <p><a href="http://google.com" title="Goolge" target="_blank" rel="noopener">Google</a> , <a href="http://search.yahoo.com" title="Yahoo Search" target="_blank" rel="noopener">Yahoo</a> , <a href="http://search.msn.com" title="MSN Search" target="_blank" rel="noopener">MSN</a></p>
 <h2 id="自动链接"><a href="#自动链接" class="headerlink" title="自动链接"></a>自动链接</h2><p>Markdown支持为URL和电子邮件地址创建“自动”链接的快捷方式：只需用尖括号括起URL或电子邮件地址即可。例如：<br><code>&lt;https://baidu.com&gt;</code> <code>&lt;736331518@qq.com&gt;</code></p>
 <p>输出：</p>
-<p><a href="https://baidu.com" target="_blank" rel="noopener">https://baidu.com</a> <a href="mailto:&#x37;&#51;&#54;&#51;&#x33;&#49;&#53;&#49;&#56;&#x40;&#x71;&#113;&#46;&#99;&#111;&#109;" target="_blank" rel="noopener">&#x37;&#51;&#54;&#51;&#x33;&#49;&#53;&#49;&#56;&#x40;&#x71;&#113;&#46;&#99;&#111;&#109;</a></p>
+<p><a href="https://baidu.com" target="_blank" rel="noopener">https://baidu.com</a> <a href="mailto:&#55;&#x33;&#54;&#51;&#x33;&#x31;&#53;&#49;&#x38;&#x40;&#113;&#x71;&#x2e;&#x63;&#111;&#x6d;" target="_blank" rel="noopener">&#55;&#x33;&#54;&#51;&#x33;&#x31;&#53;&#49;&#x38;&#x40;&#113;&#x71;&#x2e;&#x63;&#111;&#x6d;</a></p>
 <p>链接支持相对路径，./表示当前目录，../表示上级目录，不同文档之间的关联采用相对路径。</p>
 <h1 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h1><p>Markdown使用的图片语法类似于链接的语法，允许两种引入</p>
 <h2 id="内联图片"><a href="#内联图片" class="headerlink" title="内联图片"></a>内联图片</h2><p><code>![图片描述文字](../images/icon-next.png)</code><br><code>![图片描述文字](../images/icon-next.png &#39;next主题&#39;)</code></p>
@@ -565,6 +600,12 @@ else
 
     <footer class="post-footer">
       
+        <div class="post-tags">
+          
+            <a href="/tags/博客/" rel="tag"># 博客</a>
+          
+        </div>
+      
 
       
       
@@ -574,8 +615,8 @@ else
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2018/08/31/你好，Hexo/" rel="next" title="你好，Hexo">
-                <i class="fa fa-chevron-left"></i> 你好，Hexo
+              <a href="/2018/08/31/hello-world/" rel="next" title="Hello World">
+                <i class="fa fa-chevron-left"></i> Hello World
               </a>
             
           </div>
@@ -663,7 +704,7 @@ else
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">13</span>
+                  <span class="site-state-item-count">24</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -673,10 +714,10 @@ else
               
               
               <div class="site-state-item site-state-categories">
-                
-                  <span class="site-state-item-count">1</span>
+                <a href="/categories/index.html">
+                  <span class="site-state-item-count">5</span>
                   <span class="site-state-item-name">分类</span>
-                
+                </a>
               </div>
             
 
@@ -685,7 +726,7 @@ else
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">4</span>
+                  <span class="site-state-item-count">9</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
@@ -738,7 +779,7 @@ else
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
   <span class="with-love">
     <i class="fa fa-user"></i>
   </span>

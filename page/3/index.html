@@ -1,0 +1,1415 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next pisces use-motion" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="Hexo, NexT" />
+
+
+
+
+
+
+
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="鲁西西的博客">
+<meta property="og:url" content="http://yoursite.com/page/3/index.html">
+<meta property="og:site_name" content="鲁西西的博客">
+<meta property="og:locale" content="zh-Hans">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="鲁西西的博客">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Pisces',
+    version: '5.1.4',
+    sidebar: {"position":"right","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://yoursite.com/page/3/"/>
+
+
+
+
+
+  <title>鲁西西的博客</title>
+  
+
+
+
+
+
+
+
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-right 
+  page-home">
+  
+  <!--  在首页添加github导航条 start -->
+  
+    <!--<div class="headband"></div> -->
+	
+	<a href="https://github.com/zhangyan73"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
+	
+	<!--  在首页添加github导航条 end -->
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">鲁西西的博客</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle"></p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-commonweal">
+          <a href="/404/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-heartbeat"></i> <br />
+            
+            公益404
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-search">
+          <a href="/search" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-question-circle"></i> <br />
+            
+            搜索
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-something">
+          <a href="/something" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-question-circle"></i> <br />
+            
+            有料
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+  <section id="posts" class="posts-expand">
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/10/11/ViewPager/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="张艳">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="鲁西西的博客">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/10/11/ViewPager/" itemprop="url">ViewPager</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-10-11T13:49:07+08:00">
+                2018-10-11
+              </time>
+            
+
+            
+              <span class="post-meta-divider">|</span>
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-check-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">更新于&#58;</span>
+              
+              <time title="更新于" itemprop="dateModified" datetime="2018-11-09T16:48:11+08:00">
+                2018-11-09
+              </time>
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Android/" itemprop="url" rel="index">
+                    <span itemprop="name">Android</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><p>Viewpager，视图翻页工具，提供了多页面切换的效果。Android 3.0后引入的一个UI控件，位于v4包中。现在使用Android studio进行开发，默认导入v7包，v7含了v4。</p>
+<p>Viewpager使用起来就是我们通过创建adapter给它填充多个view，左右滑动时，切换不同的view。Google官方是建议我们使用Fragment来填充ViewPager的，这样 可以更加方便的生成每个Page，以及管理每个Page的生命周期</p>
+<h1 id="基本使用"><a href="#基本使用" class="headerlink" title="基本使用"></a>基本使用</h1><p>1.在xml中添加ViewPager标签<br><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">&lt;?xml version="1.0" encoding="utf-8"?&gt;</span><br><span class="line"><span class="tag">&lt;<span class="name">android.support.v4.view.ViewPager</span></span></span><br><span class="line"><span class="tag">    <span class="attr">xmlns:android</span>=<span class="string">"http://schemas.android.com/apk/res/android"</span></span></span><br><span class="line"><span class="tag">    <span class="attr">android:id</span>=<span class="string">"@+id/pager"</span></span></span><br><span class="line"><span class="tag">    <span class="attr">android:layout_width</span>=<span class="string">"match_parent"</span></span></span><br><span class="line"><span class="tag">    <span class="attr">android:layout_height</span>=<span class="string">"match_parent"</span> /&gt;</span></span><br></pre></td></tr></table></figure></p>
+<p>2.配置PagerAdapter。PagerAdapter有两个子类：</p>
+<p>1&gt; FragmentPagerAdapter<br>当在表示固定的少量页面的兄弟屏幕之间导航时，这是最佳的。<br>2&gt; FragmentStatePagerAdapter<br>这最适合在未确定页数的对象集合中进行分页。它会在用户导航到其他页面时销毁片段，从而最大限度地减少内存使用量。</p>
+<p>以下是使用FragmentStatePagerAdapter来滑动Fragment集合示例。<br><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">CollectionDemoActivity</span> <span class="keyword">extends</span> <span class="title">FragmentActivity</span> </span>&#123;</span><br><span class="line">    <span class="comment">// FragmentStatePagerAdapter 适配器</span></span><br><span class="line">    DemoCollectionPagerAdapter mDemoCollectionPagerAdapter;</span><br><span class="line">    ViewPager mViewPager;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">onCreate</span><span class="params">(Bundle savedInstanceState)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">super</span>.onCreate(savedInstanceState);</span><br><span class="line">        setContentView(R.layout.activity_collection_demo);</span><br><span class="line"></span><br><span class="line">        <span class="comment">// ViewPager和适配器使用fragment支持库，所以使用getSupportFragmentManager。</span></span><br><span class="line">        mDemoCollectionPagerAdapter =</span><br><span class="line">                <span class="keyword">new</span> DemoCollectionPagerAdapter(</span><br><span class="line">                        getSupportFragmentManager());</span><br><span class="line">        mViewPager = (ViewPager) findViewById(R.id.pager);</span><br><span class="line">        mViewPager.setAdapter(mDemoCollectionPagerAdapter);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 因为是一个100个Fragment集合对象，所以使用</span></span><br><span class="line"><span class="comment">// FragmentStatePagerAdapter ，而不是FragmentPagerAdapter。</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">DemoCollectionPagerAdapter</span> <span class="keyword">extends</span> <span class="title">FragmentStatePagerAdapter</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">DemoCollectionPagerAdapter</span><span class="params">(FragmentManager fm)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">super</span>(fm);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> Fragment <span class="title">getItem</span><span class="params">(<span class="keyword">int</span> i)</span> </span>&#123;</span><br><span class="line">        Fragment fragment = <span class="keyword">new</span> DemoObjectFragment();</span><br><span class="line">        Bundle args = <span class="keyword">new</span> Bundle();</span><br><span class="line">        <span class="comment">// 传入整数参数</span></span><br><span class="line">        args.putInt(DemoObjectFragment.ARG_OBJECT, i + <span class="number">1</span>);</span><br><span class="line">        fragment.setArguments(args);</span><br><span class="line">        <span class="keyword">return</span> fragment;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">getCount</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="number">100</span>;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// ViewPager每个page标题，和PagerTitleStrip(不带下划线)、PagerTabStrip（带下划线）匹配。</span></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> CharSequence <span class="title">getPageTitle</span><span class="params">(<span class="keyword">int</span> position)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="string">"title "</span> + (position + <span class="number">1</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 集合中单个Fragment对象</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="class"><span class="keyword">class</span> <span class="title">DemoObjectFragment</span> <span class="keyword">extends</span> <span class="title">Fragment</span> </span>&#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">final</span> String ARG_OBJECT = <span class="string">"object"</span>;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> View <span class="title">onCreateView</span><span class="params">(LayoutInflater inflater,</span></span></span><br><span class="line"><span class="function"><span class="params">            ViewGroup container, Bundle savedInstanceState)</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">        <span class="comment">// 最后两个参数确保LayoutParams inflate正常</span></span><br><span class="line">        View rootView = inflater.inflate(</span><br><span class="line">                R.layout.fragment_collection_object, container, <span class="keyword">false</span>);</span><br><span class="line">        Bundle args = getArguments();</span><br><span class="line">        ((TextView) rootView.findViewById(android.R.id.text1)).setText(</span><br><span class="line">                <span class="string">"page:"</span>+getArguments().getInt(<span class="string">"object"</span>));</span><br><span class="line">        <span class="keyword">return</span> rootView;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<p><img src="../../../../../images/viewPager1.png" alt="ViewPager PagerTitleStrip"></p>
+<h1 id="标题栏"><a href="#标题栏" class="headerlink" title="标题栏"></a>标题栏</h1><ul>
+<li><p>PagerTabStrip： 标题栏带有下划线</p>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">android.support.v4.view.ViewPager</span></span></span><br><span class="line"><span class="tag">        <span class="attr">android:id</span>=<span class="string">"@+id/viewPager"</span></span></span><br><span class="line"><span class="tag">        <span class="attr">android:layout_width</span>=<span class="string">"match_parent"</span></span></span><br><span class="line"><span class="tag">        <span class="attr">android:layout_height</span>=<span class="string">"match_parent"</span></span></span><br><span class="line"><span class="tag">        &gt;</span></span><br><span class="line"></span><br><span class="line">        <span class="tag">&lt;<span class="name">android.support.v4.view.PagerTabStrip</span></span></span><br><span class="line"><span class="tag">            <span class="attr">android:layout_width</span>=<span class="string">"wrap_content"</span></span></span><br><span class="line"><span class="tag">            <span class="attr">android:layout_height</span>=<span class="string">"wrap_content"</span></span></span><br><span class="line"><span class="tag">            <span class="attr">android:layout_gravity</span>=<span class="string">"top"</span></span></span><br><span class="line"><span class="tag">            <span class="attr">android:background</span>=<span class="string">"#33b5e5"</span></span></span><br><span class="line"><span class="tag">            <span class="attr">android:textColor</span>=<span class="string">"#fff"</span></span></span><br><span class="line"><span class="tag">            <span class="attr">android:padding</span>=<span class="string">"5dp"</span></span></span><br><span class="line"><span class="tag">            /&gt;</span></span><br><span class="line"></span><br><span class="line">    <span class="tag">&lt;/<span class="name">android.support.v4.view.ViewPager</span>&gt;</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>PagerTitleStrip： 标题栏不带下划线（和PagerTabStrip用法一样）</p>
+</li>
+</ul>
+<h1 id="PagerAdapter"><a href="#PagerAdapter" class="headerlink" title="PagerAdapter"></a>PagerAdapter</h1><ol>
+<li><p>基类提供适配器来填充ViewPager。也可以使用FragmentPagerAdapter或 FragmentStatePagerAdapter，参考上面示例。</p>
+</li>
+<li><p>实现PagerAdapter时，必须至少覆盖以下方法：</p>
+<ul>
+<li>instantiateItem(ViewGroup, int) 创建给定位置的页面</li>
+<li>destroyItem(ViewGroup, int, Object) 删除给定位置的页面</li>
+<li>getCount() 返回可用的视图数</li>
+<li>isViewFromObject(View, Object) 确定页面视图是否与返回的特定键对象相关联</li>
+</ul>
+</li>
+</ol>
+<ol start="3">
+<li>下面代码是一个简单的PagerAdapter使用，每个pager是一个View。<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">MyPagerAdapter</span> <span class="keyword">extends</span> <span class="title">PagerAdapter</span></span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> Context ctx;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">MyPagerAdapter</span><span class="params">(Context ctx)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">this</span>.ctx = ctx;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">getCount</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="number">10</span>;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">boolean</span> <span class="title">isViewFromObject</span><span class="params">(@NonNull View view, @NonNull Object o)</span> </span>&#123;</span><br><span class="line">      <span class="comment">// 识别页面View是否与给定的密钥对象相关联。</span></span><br><span class="line">        <span class="keyword">return</span> view == o;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@NonNull</span></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> Object <span class="title">instantiateItem</span><span class="params">(@NonNull ViewGroup container, <span class="keyword">int</span> position)</span> </span>&#123;</span><br><span class="line">        <span class="comment">// 每个pager对象</span></span><br><span class="line">        View root = View.inflate(ctx, R.layout.fragment_collection_object, <span class="keyword">null</span>);</span><br><span class="line">        ((TextView) root.findViewById(R.id.textView1)).setText(<span class="string">"page:"</span>+(position+<span class="number">1</span>));</span><br><span class="line"></span><br><span class="line">        container.addView(root);</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> root;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">destroyItem</span><span class="params">(@NonNull ViewGroup container, <span class="keyword">int</span> position, @NonNull Object object)</span> </span>&#123;</span><br><span class="line">      <span class="comment">// 删除与传递给的键相关联的视图，从父容器中删除view</span></span><br><span class="line">        container.removeView((View) object);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<blockquote>
+<p>PagerAdapter支持数据集更改。数据集更改必须在主线程上发生，并且必须以notifyDataSetChanged()类似于派生自的AdapterView适配器的方式结束BaseAdapter。数据集更改可能涉及添加，删除或更改位置的页面。如果适配器实现该方法，ViewPager将保持当前页面处于活动状态getItemPosition(Object)。</p>
+</blockquote>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/09/12/Fragment/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="张艳">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="鲁西西的博客">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/09/12/Fragment/" itemprop="url">Fragment</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-09-12T17:16:50+08:00">
+                2018-09-12
+              </time>
+            
+
+            
+              <span class="post-meta-divider">|</span>
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-check-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">更新于&#58;</span>
+              
+              <time title="更新于" itemprop="dateModified" datetime="2018-11-09T16:49:48+08:00">
+                2018-11-09
+              </time>
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Android/" itemprop="url" rel="index">
+                    <span itemprop="name">Android</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h1 id="Fragment设计初衷"><a href="#Fragment设计初衷" class="headerlink" title="Fragment设计初衷"></a>Fragment设计初衷</h1><p>Android 在 Android 3.0（API 级别 11）中引入了片段，主要是为了给大屏幕（如平板电脑）上更加动态和灵活的 UI 设计提供支持。</p>
+<h1 id="创建Fragment"><a href="#创建Fragment" class="headerlink" title="创建Fragment"></a>创建Fragment</h1><p>必须创建Frament子类。Fragment类的代码与Activity相似。包含Activity类似的回调方法。如 onCreate()、onStart()、onPause() 和 onStop()。</p>
+<p>通常，你至少应该实现以下生命周期方法：</p>
+<h1 id="Fragment基本用法"><a href="#Fragment基本用法" class="headerlink" title="Fragment基本用法"></a>Fragment基本用法</h1><ol>
+<li>新建两个Fragment,分别是首页IndexFragment和我的MeFragment。</li>
+</ol>
+<p>IndexFrament:<br><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">IndexFragment</span> <span class="keyword">extends</span> <span class="title">Fragment</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">onCreate</span><span class="params">(@Nullable Bundle savedInstanceState)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">super</span>.onCreate(savedInstanceState);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Nullable</span></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> View <span class="title">onCreateView</span><span class="params">(LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> inflater.inflate(R.layout.fragment_index, container, <span class="keyword">false</span>);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">onPause</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">super</span>.onPause();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<p>MeFragment，只是demo，内容同IndexFragment。<br><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">MeFragment</span> <span class="keyword">extends</span> <span class="title">Fragment</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">onCreate</span><span class="params">(@Nullable Bundle savedInstanceState)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">super</span>.onCreate(savedInstanceState);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Nullable</span></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> View <span class="title">onCreateView</span><span class="params">(LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> inflater.inflate(R.layout.fragment_me, container, <span class="keyword">false</span>);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">onPause</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">super</span>.onPause();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<p>fragment_index.xml和fragment_me.xml布局简单，此处不再粘贴。</p>
+<ol start="2">
+<li>activity_main.xml:</li>
+</ol>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">FrameLayout</span></span></span><br><span class="line"><span class="tag">    <span class="attr">android:id</span>=<span class="string">"@+id/frameLayout"</span></span></span><br><span class="line"><span class="tag">    <span class="attr">android:layout_width</span>=<span class="string">"match_parent"</span></span></span><br><span class="line"><span class="tag">    <span class="attr">android:layout_height</span>=<span class="string">"0dp"</span></span></span><br><span class="line"><span class="tag">    <span class="attr">app:layout_constraintLeft_toLeftOf</span>=<span class="string">"parent"</span></span></span><br><span class="line"><span class="tag">    <span class="attr">app:layout_constraintTop_toTopOf</span>=<span class="string">"parent"</span></span></span><br><span class="line"><span class="tag">    <span class="attr">app:layout_constraintRight_toRightOf</span>=<span class="string">"parent"</span></span></span><br><span class="line"><span class="tag">    <span class="attr">app:layout_constraintBottom_toTopOf</span>=<span class="string">"@id/navigation"</span></span></span><br><span class="line"><span class="tag">    /&gt;</span></span><br></pre></td></tr></table></figure>
+<ol start="3">
+<li>MainActivity</li>
+</ol>
+<p>新建三个Fragment，分别是当前展示的Fragment curFragment;需要切换显示的两个Fragment,indexFragment和meFragment。每次show Fragment时先判断是否是当前的Fragment;如果不是当前Fragment,隐藏当前Fragment，show 新的 Fragment，如果该Fragment没有加入到FragmentManager，则先添加。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">MainActivity</span> <span class="keyword">extends</span> <span class="title">BaseActivity</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> Fragment curFragment = <span class="keyword">new</span> Fragment();</span><br><span class="line">    <span class="keyword">private</span> IndexFragment indexFragment;</span><br><span class="line">    <span class="keyword">private</span> MeFragment meFragment;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> FragmentManager fm;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">protected</span> <span class="keyword">void</span> <span class="title">onCreate</span><span class="params">(@Nullable Bundle savedInstanceState)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">super</span>.onCreate(savedInstanceState);</span><br><span class="line"></span><br><span class="line">        setContentView(R.layout.activity_main);</span><br><span class="line"></span><br><span class="line">        indexFragment = <span class="keyword">new</span> IndexFragment();</span><br><span class="line">        meFragment = <span class="keyword">new</span> MeFragment();</span><br><span class="line"></span><br><span class="line">        fm = getFragmentManager();</span><br><span class="line"></span><br><span class="line">        showFragment(indexFragment);</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 动态显示隐藏Fragment</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> fragment</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="function"><span class="keyword">private</span> <span class="keyword">void</span> <span class="title">showFragment</span><span class="params">(Fragment fragment)</span></span>&#123;</span><br><span class="line">        <span class="keyword">if</span> (curFragment != fragment)&#123;</span><br><span class="line">            FragmentTransaction ft = fm.beginTransaction();</span><br><span class="line">            ft.hide(curFragment);</span><br><span class="line">            curFragment = fragment;</span><br><span class="line">            <span class="keyword">if</span> (fragment.isAdded())&#123;</span><br><span class="line">                ft.show(fragment).commit();</span><br><span class="line">            &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">                ft.add(R.id.frameLayout, fragment).commit();</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/09/06/Markdown语法1/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="张艳">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="鲁西西的博客">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/09/06/Markdown语法1/" itemprop="url">Markdown语法1</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-09-06T10:51:21+08:00">
+                2018-09-06
+              </time>
+            
+
+            
+              <span class="post-meta-divider">|</span>
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-check-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">更新于&#58;</span>
+              
+              <time title="更新于" itemprop="dateModified" datetime="2018-11-09T16:48:55+08:00">
+                2018-11-09
+              </time>
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/工具/" itemprop="url" rel="index">
+                    <span itemprop="name">工具</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h1 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h1><p>Markdown支持两种样式的标题，Setext和atx。</p>
+<ol>
+<li>Setext样式的标题使用等号（对于第一级标题）和破折号（对于第二级标题）“加下划线”。例如：</li>
+</ol>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">这是一级标题</span><br><span class="line">============</span><br><span class="line">这是二级标题</span><br><span class="line">------------</span><br></pre></td></tr></table></figure>
+<p>输出结果：</p>
+<h1 id="这是一级标题"><a href="#这是一级标题" class="headerlink" title="这是一级标题"></a>这是一级标题</h1><h2 id="这是二级标题"><a href="#这是二级标题" class="headerlink" title="这是二级标题"></a>这是二级标题</h2><ol start="2">
+<li>Atx样式的标题在行的开头使用1-6个#字符，对应于标题级别1-6。例如：</li>
+</ol>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"># 一级标题</span><br><span class="line">## 二级标题</span><br><span class="line">### 三级标题</span><br></pre></td></tr></table></figure>
+<p>输出结果：</p>
+<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h1 id="文本样式"><a href="#文本样式" class="headerlink" title="文本样式"></a>文本样式</h1><p>Markdown支持四种文本样式，分别是粗体、斜体、删除线、和粗体加斜体。</p>
+<h2 id="粗体"><a href="#粗体" class="headerlink" title="粗体"></a>粗体</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">**这是粗体文字1**</span><br><span class="line">__这是粗体文字2__</span><br></pre></td></tr></table></figure>
+<p>输出结果：<br><strong>这是粗体文字1</strong><br><strong>这是粗体文字2</strong></p>
+<h2 id="斜体"><a href="#斜体" class="headerlink" title="斜体"></a>斜体</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">*这是斜体文字1*</span><br><span class="line">_这是斜体文字2_</span><br></pre></td></tr></table></figure>
+<p>输出结果：<br><em>这是斜体文字1</em><br><em>这是斜体文字2</em></p>
+<h2 id="删除线"><a href="#删除线" class="headerlink" title="删除线"></a>删除线</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">~~这是错误的文本~~</span><br></pre></td></tr></table></figure>
+<p>输出结果：<br><del>这是错误的文本</del></p>
+<h2 id="粗体加斜体"><a href="#粗体加斜体" class="headerlink" title="粗体加斜体"></a>粗体加斜体</h2><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="strong">**这个文本非常*重要**</span>*</span><br><span class="line"><span class="strong">**This text is _extremely_ important**</span>  (不知为何中文用__加粗没有效果)</span><br></pre></td></tr></table></figure>
+<p>输出结果：<br><strong>这个文本非常<em>重要</em></strong><br><strong>This text is <em>extremely</em> important</strong></p>
+<h1 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">|列名1|列名2|</span><br><span class="line">|:---|:---|</span><br><span class="line">|列1的内容1|列2的内容1|</span><br><span class="line">|列1的内容2|列2的内容2|</span><br></pre></td></tr></table></figure>
+<p>输出结果：</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">列名1</th>
+<th style="text-align:left">列名2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">列1的内容1</td>
+<td style="text-align:left">列2的内容1</td>
+</tr>
+<tr>
+<td style="text-align:left">列1的内容2</td>
+<td style="text-align:left">列2的内容2</td>
+</tr>
+</tbody>
+</table>
+<h1 id="块引用"><a href="#块引用" class="headerlink" title="块引用"></a>块引用</h1><h2 id="Markdown使用”-gt-”字符进行块引用。"><a href="#Markdown使用”-gt-”字符进行块引用。" class="headerlink" title="Markdown使用”&gt;”字符进行块引用。"></a>Markdown使用”&gt;”字符进行块引用。</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&gt; 这是一个块引用。</span><br><span class="line"></span><br><span class="line">&gt; Markdown使用&quot;&gt;&quot;字符进行块引用。</span><br></pre></td></tr></table></figure>
+<p>输出结果：</p>
+<blockquote>
+<p>这是一个块引用。</p>
+</blockquote>
+<blockquote>
+<p>Markdown使用”&gt;”字符进行块引用。</p>
+</blockquote>
+<h2 id="可以嵌套块引用"><a href="#可以嵌套块引用" class="headerlink" title="可以嵌套块引用"></a>可以嵌套块引用</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&gt; 这是一级引用。</span><br><span class="line">&gt;</span><br><span class="line">&gt; &gt; 这是内层块引用。</span><br><span class="line">&gt;</span><br><span class="line">&gt; 回到一级块引用。</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>这是一级引用。</p>
+<blockquote>
+<p>这是内层块引用。</p>
+</blockquote>
+<p>回到一级块引用。</p>
+</blockquote>
+<h2 id="块引用可以包含其他Markdown元素，包括标题，列表和代码块。例如："><a href="#块引用可以包含其他Markdown元素，包括标题，列表和代码块。例如：" class="headerlink" title="块引用可以包含其他Markdown元素，包括标题，列表和代码块。例如："></a>块引用可以包含其他Markdown元素，包括标题，列表和代码块。例如：</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">&gt; ##这是一个标题</span><br><span class="line">&gt;</span><br><span class="line">&gt; 1. 这是一级列表项</span><br><span class="line">&gt; 2.这是二级列表项</span><br><span class="line">&gt;</span><br><span class="line">&gt; 这是代码示例：</span><br><span class="line">&gt;</span><br><span class="line">&gt;     console.log(&quot;Hello World!&quot;);</span><br></pre></td></tr></table></figure>
+<p>输出结果：</p>
+<blockquote>
+<p>##这是一个标题</p>
+<ol>
+<li>这是一级列表项<br>2.这是二级列表项</li>
+</ol>
+<p>这是代码示例：</p>
+<pre><code>console.log(&quot;Hello World!&quot;);
+</code></pre></blockquote>
+<h1 id="代码引用"><a href="#代码引用" class="headerlink" title="代码引用"></a>代码引用</h1><p>引用代码有两种形式,行引用和段引用。</p>
+<h2 id="使用一个倒引号-引用代码或命令；"><a href="#使用一个倒引号-引用代码或命令；" class="headerlink" title="使用一个倒引号`引用代码或命令；"></a>使用一个倒引号`引用代码或命令；</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">输入命令`git status`</span><br></pre></td></tr></table></figure>
+<p>输出结果：<br>输入命令<code>git status</code></p>
+<h2 id="使用三个倒引号-引用一段代码；"><a href="#使用三个倒引号-引用一段代码；" class="headerlink" title="使用三个倒引号```引用一段代码；"></a>使用三个倒引号```引用一段代码；</h2><p>```java<br>int a = 1;<br>int b = 2;<br>int c = a+b;<br>```</p>
+<p>输出结果：<br><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">int</span> a = <span class="number">1</span>;</span><br><span class="line"><span class="keyword">int</span> b = <span class="number">2</span>;</span><br><span class="line"><span class="keyword">int</span> c = a+b;</span><br></pre></td></tr></table></figure></p>
+<h1 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h1><p>预格式化的代码块用于编写有关编程或标记源代码。不是形成正常段落，而是按字面解释代码块的行。<br>要在Markdown中生成代码块，只需要将块的每一行缩进至少四个空格或一个制表符。例如：</p>
+<pre><code>if(true)
+    console.log(&quot;this is true&quot;);
+else
+    console.log(&quot;this is false&quot;);
+</code></pre><p>输出结果：</p>
+<pre><code>if(true)
+    console.log(&quot;this is true&quot;);
+else
+    console.log(&quot;this is false&quot;);
+</code></pre><p>代码块一直持续到没有缩进的行。</p>
+<p>在代码块中，&amp;符号和尖括号（&lt;,&gt;）会自动转换成HTML。这使得使用Markdown包含HTML源代码示例变得非常容易，只需要将其粘贴并缩进即可，Markdown将处理编码&amp;符号和尖括号。例如：</p>
+<pre><code>&lt;div class=&quot;footer&quot;&gt;
+    &amp;copy; 2004 Foo Corporation
+&lt;/div&gt;
+</code></pre><p>输出结果：</p>
+<pre><code>&lt;div class=&quot;footer&quot;&gt;
+    &amp;copy; 2004 Foo Corporation
+&lt;/div&gt;
+</code></pre><h1 id="水平规则"><a href="#水平规则" class="headerlink" title="水平规则"></a>水平规则</h1><p>你可以通过在一行上输入三个或以上的连字符，星号和下划线来生成水平规则标记。也可以在他们之间加入空格。以下每一行都生成一个水平规则：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">1. ***</span><br><span class="line">2. * * *</span><br><span class="line">3. ---</span><br><span class="line">4. - - -</span><br><span class="line">5. ___</span><br><span class="line">6. _ _ _</span><br></pre></td></tr></table></figure>
+<p>输出结果：</p>
+<ol>
+<li><hr>
+</li>
+<li><hr>
+</li>
+<li><hr>
+</li>
+<li><hr>
+</li>
+<li><hr>
+</li>
+<li><hr>
+</li>
+</ol>
+<h1 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h1><p>Markdown支持两种类型的链接：内联和引用。<br>在这两种样式中，链接文本由[方括号]分隔。</p>
+<h2 id="要创建内联链接，请在链接文本结束的方括号后立即使用一组小括号。在括号内，将URL指向链接，以及链接的可选标题，用引号括起来。例如："><a href="#要创建内联链接，请在链接文本结束的方括号后立即使用一组小括号。在括号内，将URL指向链接，以及链接的可选标题，用引号括起来。例如：" class="headerlink" title="要创建内联链接，请在链接文本结束的方括号后立即使用一组小括号。在括号内，将URL指向链接，以及链接的可选标题，用引号括起来。例如："></a>要创建内联链接，请在链接文本结束的方括号后立即使用一组小括号。在括号内，将URL指向链接，以及链接的<em>可选</em>标题，用引号括起来。例如：</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">[测试链接1](http://test.com &apos;test&apos;)</span><br><span class="line">[测试链接2](http://test.com)</span><br></pre></td></tr></table></figure>
+<p>输出结果：</p>
+<p><a href="http://test.com" title="test" target="_blank" rel="noopener">测试链接1</a></p>
+<p><a href="http://test.com" target="_blank" rel="noopener">测试链接2</a></p>
+<h2 id="参考链接语法："><a href="#参考链接语法：" class="headerlink" title="参考链接语法："></a>参考链接语法：</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">[链接文本text] [链接定义标签id]</span><br><span class="line"></span><br><span class="line">然后，在文档中的任何位置，可以单独定义链接标签，以下三个定义是等效的：</span><br><span class="line">[id]: http://example.com/  &quot;Optional Title Here&quot;</span><br><span class="line">[id]: http://example.com/  &apos;Optional Title Here&apos;</span><br><span class="line">[id]: http://example.com/  (Optional Title Here)</span><br></pre></td></tr></table></figure>
+<p>链接定义名称可能包含字母，数字，空格和标点符号 - 但它们不区分大小写。</p>
+<h2 id="隐式链接名称"><a href="#隐式链接名称" class="headerlink" title="隐式链接名称"></a>隐式链接名称</h2><p>在隐式链接名称可以让你忽略链接，在这种情况下，链接文本本身作为名称的名称。只需要使用一组空的方括号。例如，将google链接到google.com:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">[Google][]</span><br><span class="line"></span><br><span class="line">然后定义链接：</span><br><span class="line">[Google]: http://google.com</span><br></pre></td></tr></table></figure></p>
+<p>链接定义可以放在文档的任何位置，我个人倾向于在使用它们的每个段落之后定义，但也可以放在文档的末尾。</p>
+<h2 id="参考链接例子："><a href="#参考链接例子：" class="headerlink" title="参考链接例子："></a>参考链接例子：</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">[Google] [1] , [Yahoo] [2] , [MSN] [3]</span><br><span class="line"></span><br><span class="line">[1]: http://google.com &quot;Goolge&quot;</span><br><span class="line">[2]: http://search.yahoo.com &quot;Yahoo Search&quot;</span><br><span class="line">[3]: http://search.msn.com &quot;MSN Search&quot;</span><br></pre></td></tr></table></figure>
+<p>输出结果：</p>
+<p><a href="http://google.com" title="Goolge" target="_blank" rel="noopener">Google</a> , <a href="http://search.yahoo.com" title="Yahoo Search" target="_blank" rel="noopener">Yahoo</a> , <a href="http://search.msn.com" title="MSN Search" target="_blank" rel="noopener">MSN</a></p>
+<h2 id="隐式链接例子："><a href="#隐式链接例子：" class="headerlink" title="隐式链接例子："></a>隐式链接例子：</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">[Google] [] , [Yahoo] [] , [MSN] []</span><br><span class="line"></span><br><span class="line">[google]: http://google.com &quot;Goolge&quot;</span><br><span class="line">[yahoo]: http://search.yahoo.com &quot;Yahoo Search&quot;</span><br><span class="line">[msn]: http://search.msn.com &quot;MSN Search&quot;</span><br><span class="line">链接定义不区分大小写</span><br></pre></td></tr></table></figure>
+<p>输出结果：</p>
+<p><a href="http://google.com" title="Goolge" target="_blank" rel="noopener">Google</a> , <a href="http://search.yahoo.com" title="Yahoo Search" target="_blank" rel="noopener">Yahoo</a> , <a href="http://search.msn.com" title="MSN Search" target="_blank" rel="noopener">MSN</a></p>
+<h2 id="自动链接"><a href="#自动链接" class="headerlink" title="自动链接"></a>自动链接</h2><p>Markdown支持为URL和电子邮件地址创建“自动”链接的快捷方式：只需用尖括号括起URL或电子邮件地址即可。例如：<br><code>&lt;https://baidu.com&gt;</code> <code>&lt;736331518@qq.com&gt;</code></p>
+<p>输出：</p>
+<p><a href="https://baidu.com" target="_blank" rel="noopener">https://baidu.com</a> <a href="mailto:&#55;&#x33;&#54;&#51;&#x33;&#x31;&#53;&#49;&#x38;&#x40;&#113;&#x71;&#x2e;&#x63;&#111;&#x6d;" target="_blank" rel="noopener">&#55;&#x33;&#54;&#51;&#x33;&#x31;&#53;&#49;&#x38;&#x40;&#113;&#x71;&#x2e;&#x63;&#111;&#x6d;</a></p>
+<p>链接支持相对路径，./表示当前目录，../表示上级目录，不同文档之间的关联采用相对路径。</p>
+<h1 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h1><p>Markdown使用的图片语法类似于链接的语法，允许两种引入</p>
+<h2 id="内联图片"><a href="#内联图片" class="headerlink" title="内联图片"></a>内联图片</h2><p><code>![图片描述文字](../images/icon-next.png)</code><br><code>![图片描述文字](../images/icon-next.png &#39;next主题&#39;)</code></p>
+<p><strong>说明：</strong></p>
+<ul>
+<li>!</li>
+<li>[] 图片的属性文本</li>
+<li>() 包含图片的url或路径，以及title用双引号或单引号括起来的可选属性。</li>
+</ul>
+<p><img src="../../../../../images/icon-next.png" alt="图片描述文字" title="next主题"></p>
+<h2 id="参考引用图片"><a href="#参考引用图片" class="headerlink" title="参考引用图片"></a>参考引用图片</h2><p>‘![Alt text][id]’</p>
+<p>id是已经定义图片引用的名称。使用与链接引用相同：<br><code>[id]: url/to/image  &quot;Optional title attribute&quot;</code></p>
+<p>如果需要指定图片的尺寸，可以使用Html <img>标记：<br><code>&lt;img src=&quot;../images/icon-next.png&quot; width=&quot;50px&quot;/&gt;</code></p>
+<p><img src="../../../../images/icon-next.png" width="50px"></p>
+<h1 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h1><p>Markdown支持无序（项目符号）和有序（数字）列表。<br>无序列表使用星号，加号和连字符作为列表标记；有序列表使用数字后跟点号：<br><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">- </span>服务器端语言</span><br><span class="line"><span class="code">    + java</span></span><br><span class="line"><span class="code">    + .net</span></span><br><span class="line"><span class="code">    + delphy</span></span><br><span class="line"><span class="bullet">- </span>前端语言</span><br><span class="line">  * css</span><br><span class="line">  * html</span><br><span class="line">  * javascript</span><br><span class="line"><span class="bullet">- </span>数据库</span><br><span class="line">  1. sql</span><br><span class="line">  2. mysql</span><br><span class="line">  3. sqlite</span><br><span class="line">  4. oracle</span><br><span class="line"><span class="bullet">- </span>移动端开发(任务列表，非标准Markdown语法)</span><br><span class="line">  - [x]android</span><br><span class="line">  - [ ]IOS</span><br><span class="line">  - [ ]winphone</span><br></pre></td></tr></table></figure></p>
+<ul>
+<li>服务器端语言<ul>
+<li>java</li>
+<li>.net</li>
+<li>delphy</li>
+</ul>
+</li>
+<li>前端语言<ul>
+<li>css</li>
+<li>html</li>
+<li>javascript</li>
+</ul>
+</li>
+<li>数据库<ol>
+<li>sql</li>
+<li>mysql</li>
+<li>sqlite</li>
+<li>oracle</li>
+</ol>
+</li>
+<li>移动端开发(任务列表，非标准Markdown语法)<ul>
+<li style="list-style: none"><input type="checkbox" checked> android</li>
+<li style="list-style: none"><input type="checkbox"> IOS</li>
+<li style="list-style: none"><input type="checkbox"> winphone</li>
+</ul>
+</li>
+</ul>
+<h1 id="使用表情符号"><a href="#使用表情符号" class="headerlink" title="使用表情符号"></a>使用表情符号</h1><p>@octocat :+1: This PR looks great - it’s ready to merge!</p>
+<p>Atom无效 <a href="https://www.webfx.com/tools/emoji-cheat-sheet/" target="_blank" rel="noopener">更多表情符号</a></p>
+<h1 id="段落和换行符"><a href="#段落和换行符" class="headerlink" title="段落和换行符"></a>段落和换行符</h1><p>在文本行之间留一个空行来创建新的段落。</p>
+<h1 id="忽略Markdown的格式"><a href="#忽略Markdown的格式" class="headerlink" title="忽略Markdown的格式"></a>忽略Markdown的格式</h1><p>你可以通过<code>\</code>在Markdown关键字之前使用来转义Markdown关键字。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">\*\*转义Markdown关键字\*\*</span><br></pre></td></tr></table></figure></p>
+<p>输出结果：<br>**转义Markdown关键字**</p>
+<h2 id="特殊字符"><a href="#特殊字符" class="headerlink" title="特殊字符"></a>特殊字符</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">1. 版权符号：&amp;copy;</span><br><span class="line">2. &lt; &amp;lt;</span><br><span class="line">3. &amp; &amp;amp;</span><br></pre></td></tr></table></figure>
+<ol>
+<li>版权符号：&copy;</li>
+<li>&lt; &lt;</li>
+<li>&amp; &amp;</li>
+</ol>
+<blockquote>
+<p>参考：<br><a href="https://help.github.com/articles/basic-writing-and-formatting-syntax/#headings" target="_blank" rel="noopener">https://help.github.com/articles/basic-writing-and-formatting-syntax/#headings</a><br><a href="https://daringfireball.net/projects/markdown/syntax#backslash" target="_blank" rel="noopener">https://daringfireball.net/projects/markdown/syntax#backslash</a></p>
+</blockquote>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/08/31/hello-world/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="张艳">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="鲁西西的博客">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/08/31/hello-world/" itemprop="url">Hello World</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-08-31T09:47:03+08:00">
+                2018-08-31
+              </time>
+            
+
+            
+              <span class="post-meta-divider">|</span>
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-check-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">更新于&#58;</span>
+              
+              <time title="更新于" itemprop="dateModified" datetime="2018-08-31T09:47:03+08:00">
+                2018-08-31
+              </time>
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+  </section>
+
+  
+  <nav class="pagination">
+    <a class="extend prev" rel="prev" href="/page/2/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><a class="page-number" href="/page/2/">2</a><span class="page-number current">3</span>
+  </nav>
+
+
+
+          </div>
+          
+
+
+          
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+
+      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <p class="site-author-name" itemprop="name">张艳</p>
+              <p class="site-description motion-element" itemprop="description"></p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">24</span>
+                  <span class="site-state-item-name">日志</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-categories">
+                <a href="/categories/index.html">
+                  <span class="site-state-item-count">5</span>
+                  <span class="site-state-item-name">分类</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">9</span>
+                  <span class="site-state-item-name">标签</span>
+                </a>
+              </div>
+            
+
+          </nav>
+
+          
+
+          
+
+          
+          
+
+          
+          
+
+          
+
+        </div>
+      </section>
+
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">张艳</span>
+
+  
+</div>
+
+
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Pisces</a> v5.1.4</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.4"></script>
+
+
+
+  
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
